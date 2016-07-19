@@ -37,39 +37,99 @@ html {
 @font-face {font-family: 'DistrictBlack';src: url('../webfonts/1CE0F0_B_0.eot');src: url('../webfonts/1CE0F0_B_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_B_0.woff') format('woff'),url('../webfonts/1CE0F0_B_0.ttf') format('truetype');} 
 @font-face {font-family: 'DistrictBlackItalic';src: url('../webfonts/1CE0F0_2_0.eot');src: url('../webfonts/1CE0F0_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_2_0.woff') format('woff'),url('../webfonts/1CE0F0_2_0.ttf') format('truetype');} 
 
-#project-cards {
-    display:            flex;
-    justify-content:    space-around;
-    align-items:        center;
+/* HOME STYLES */
+body {
+    font-family:        "Whitney Cond A", "Whitney Cond B";
+    font-style:         normal;
+    font-weight:        400;
+    }
+
+a { 
+    color:              inherit;
+    text-decoration:    inherit;
+    }
+
+li {
+    list-style:         none;
+    }
+
+/* MAIN NAV */
+nav#main {
     position:           absolute;
-    width:              100%;
-    height:             100%;
-    font-family:        DistrictBlackItalic;
-    color:              white;
-	}
-
-.project-card {
-    position:           relative;
-    width:              30%;
-    height:             120px;
-    background-size:    cover;
-    background-position:50%;
-    box-shadow:         0 1px 6px rgba(0,0,0, 0.3);
+    top:                0;
+    left:               0;
+    margin:             6px 9px;
     }
 
-.project-card .filter {
+nav#main ul {
+
+    }
+
+nav#main li#digifabshop-logo {
+    text-transform:     lowercase;
+    font-family:        DistrictBlack;
+    letter-spacing:     -1px;
+    font-size:          22px;
+    }
+
+
+nav#main li {
+    display:            inline;
+    text-transform:     uppercase;
+    font-weight:        300;
+    font-size:          28px;
+    }
+
+nav#main a {
+    padding:            6px;
+    }
+
+nav#main img {
+
+    }
+
+/* SOCIAL LINKS */
+nav#social-links{
     position:           absolute;
-    width:              100%;
-    height:             100%;
-    -webkit-backdrop-filter:blur(2px);
+    bottom:             0;
+    left:               0;
+    margin:             6px 9px;
     }
 
-.project-card .content {
-    position:           relative;
-    padding:            3%;
+nav#social-links ul {
+
     }
 
-.project-card .name {
-    font-size:          24px;
-    text-shadow:        0 1px 4px rgba(0,0,0, 0.3);
+nav#social-links li {
+    display:            inline;
+    }
+
+nav#social-links a {
+    padding:            2px;
+    }
+
+nav#social-links img {
+    height:             20px;
+    }
+
+/* CONTACT INFO */
+footer#contact-info {
+    position:           absolute;
+    right:              0;
+    bottom:             0;
+    margin:             6px 9px;
+    text-align:         right;
+    font-size:          15px;
+    }
+
+footer#contact-info ul {
+
+    }
+
+footer#contact-info li {
+
+    }
+
+footer#contact-info a {
+
     }
