@@ -123,10 +123,11 @@ nav#social-links img {
     }
 
 #feed .feed-item .image {
+    cursor:             pointer;
     position:           absolute;
     top:                8%;
-    left:               10%;
-    right:              10%;
+    left:               4%;
+    right:              4%;
     bottom:             8%;
     background-size:    contain;
     background-repeat:  no-repeat;
