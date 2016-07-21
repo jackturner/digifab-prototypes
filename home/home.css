@@ -15,6 +15,9 @@ h1, h2, h3, h4, h5, h6 {
 
 html {
     box-sizing:         border-box;
+    color: #111;
+    font-size: 1em;
+    line-height: 1.4;}
     }
 
 *, *:before, *:after {
@@ -39,7 +42,6 @@ html {
 
 /* HOME STYLES */
 body {
-    color:              #111;
     font-family:        'Helvetica Neue', Helvetica, arial, sans-serif;
     font-style:         normal;
     font-weight:        300;
@@ -78,7 +80,8 @@ nav#main li#digifabshop-logo {
 nav#main li {
     display:            inline;
     text-transform:     uppercase;
-    font-weight:        300;
+    font-weight:        normal;
+    font-family:        DistrictThin;
     font-size:          16px;
     }
 
@@ -151,13 +154,15 @@ nav#social-links .phone {
     padding:            3px 5px 2px;
     color:              #333;
     font-size:          13px;
+    font-weight:        normal;
+    font-family:        DistrictLight;
     }
 
 #feed figure .title {
     }
 
 #feed figure a {
-    font-weight:        500;
+    font-family:        DistrictDemi;
     }
 
 #feed figure a:hover {
