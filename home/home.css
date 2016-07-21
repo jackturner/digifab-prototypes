@@ -93,34 +93,6 @@ nav#main img {
 
     }
 
-/* SOCIAL LINKS */
-nav#social-links{
-    position:           absolute;
-    top:                0;
-    right:              0;
-    margin:             8px 9px;
-    }
-
-nav#social-links ul {
-
-    }
-
-nav#social-links li {
-    display:            inline;
-    }
-
-nav#social-links a {
-    padding:            2px;
-    }
-
-nav#social-links img {
-    height:             20px;
-    }
-
-nav#social-links .phone {
-    font-size:          20px;
-    }
-
 /* FEED STYLES */
 #feed figure {
     }
@@ -184,3 +156,58 @@ nav#social-links .phone {
     opacity:            1.0;
     transform:          scale(1.0);
     }
+
+/* SOCIAL LINKS */
+footer{
+    position:           absolute;
+    top:                0;
+    right:              0;
+    margin:             8px 9px;
+    }
+
+footer li {
+    display:            inline;
+    }
+
+footer a {
+    padding:            2px;
+    }
+
+
+footer .contact-info {
+    position: relative;
+    font-weight: normal;
+    font-family: DistrictThin;
+    }
+
+.additional-info-toggle {
+    font-family: Georgia;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 21px;
+}
+
+footer .contact-info .additional-info {
+    position: absolute;
+    display: none;
+    width: 0;
+    height: 0;
+    }
+
+footer .contact-info .additional-info ul {
+    position: absolute;
+    top: 0.4em;
+    left: -5em;
+    width: 10em;
+    padding: 0.4em;
+    background: rgba(0,0,0, 0.85);
+    color: #fff;
+    }
+
+footer .contact-info .additional-info ul li {
+    display: block;
+    }
+
+footer .contact-info:hover .additional-info {
+    display: block;
+}
