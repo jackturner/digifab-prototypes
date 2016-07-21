@@ -39,6 +39,7 @@ html {
 
 /* HOME STYLES */
 body {
+    color:              #111;
     font-family:        'Helvetica Neue', Helvetica, arial, sans-serif;
     font-style:         normal;
     font-weight:        300;
@@ -59,7 +60,7 @@ nav#main {
     position:           absolute;
     top:                0;
     left:               0;
-    margin:             6px 9px;
+    margin:             9px 8px;
     }
 
 nav#main ul {
@@ -70,7 +71,7 @@ nav#main li#digifabshop-logo {
     text-transform:     lowercase;
     font-family:        DistrictBlack;
     letter-spacing:     -1px;
-    font-size:          16px;
+    font-size:          20px;
     }
 
 
@@ -94,7 +95,7 @@ nav#social-links{
     position:           absolute;
     top:                0;
     right:              0;
-    margin:             6px 9px;
+    margin:             8px 9px;
     }
 
 nav#social-links ul {
@@ -119,12 +120,6 @@ nav#social-links .phone {
 
 /* FEED STYLES */
 #feed figure {
-    position:           absolute;
-    top:                0;
-    left:               0;
-    width:              100%;
-    height:             100%;
-    text-align:         center;
     }
 
 #feed figure .image {
@@ -153,12 +148,8 @@ nav#social-links .phone {
     position:           absolute;
     right:              0;
     bottom:             0;
-    margin:             0;
     padding:            3px 5px 2px;
-    color:              #000;
-    background:         rgba(255,255,255,.2);
-    border-radius:      4px 4px 0px 0px;
-    display:            inline-block;
+    color:              #333;
     font-size:          13px;
     }
 
@@ -171,4 +162,20 @@ nav#social-links .phone {
 
 #feed figure a:hover {
     text-decoration:    underline;
+    }
+
+#next-button {
+    position:           absolute;
+    bottom:             0;
+    left:               50%;
+    margin-left:        -16px;
+    width:              32px;
+    opacity:            0.9;
+    transition:         all 200ms;
+    transform:          scale(0.9);
+    }
+
+#next-button:hover {
+    opacity:            1.0;
+    transform:          scale(1.0);
     }
