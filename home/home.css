@@ -39,9 +39,10 @@ html {
 
 /* HOME STYLES */
 body {
-    font-family:        Helvetica, arial, sans-serif;
+    font-family:        'Helvetica Neue', Helvetica, arial, sans-serif;
     font-style:         normal;
-    font-weight:        400;
+    font-weight:        300;
+    font-size:          16px;
     }
 
 a { 
@@ -69,7 +70,7 @@ nav#main li#digifabshop-logo {
     text-transform:     lowercase;
     font-family:        DistrictBlack;
     letter-spacing:     -1px;
-    font-size:          22px;
+    font-size:          16px;
     }
 
 
@@ -77,7 +78,7 @@ nav#main li {
     display:            inline;
     text-transform:     uppercase;
     font-weight:        300;
-    font-size:          28px;
+    font-size:          16px;
     }
 
 nav#main a {
@@ -113,7 +114,7 @@ nav#social-links img {
     }
 
 /* FEED STYLES */
-#feed .feed-item {
+#feed figure {
     position:           absolute;
     top:                0;
     left:               0;
@@ -122,42 +123,48 @@ nav#social-links img {
     text-align:         center;
     }
 
-#feed .feed-item .image {
-    cursor:             pointer;
+#feed figure .image {
     position:           absolute;
-    top:                8%;
-    left:               4%;
-    right:              4%;
-    bottom:             8%;
+    display:        flex;
+    align-items: flex-end;
+    justify-content: center;
+    top:                36px;
+    left:               36px;
+    right:              36px;
+    bottom:             36px;
     background-size:    contain;
     background-repeat:  no-repeat;
     background-position:50% 50%;
     }
 
-#feed .feed-item .image.tall {
+#feed figure .image.tall {
     background-image:   url('images/main-tall.jpg');
     }
 
-#feed .feed-item .image.wide {
+#feed figure .image.wide {
     background-image:   url('images/main-wide.jpg');
     }
 
-#feed .feed-item .title {
-    display:            block;
-    position:           absolute;
-    bottom:             4.5%;
-    left:               0;
-    right:              0;
-    padding:            0 6px;
-    font-size:          14px;
+#feed figure figcaption {
+    margin:             0;
+    padding:            3px 5px 2px;
+    color:              #000;
+    background:         rgba(255,255,255,.2);
+    border-radius:      4px 4px 0px 0px;
+    display:            inline-block;
+    font-size:          13px;
     }
 
-#feed .feed-item .title time {
-    padding:            0 4px;
-    text-transform:     uppercase;
-    font-size:          10px;
-    color:              #AAA;    
+#feed figure .title {
+    font-weight:        500;
     }
+
+#feed figure a {
+    font-weight:        400;
+    font-style:         italic;
+    }
+
+
 
 /* CONTACT INFO */
 footer#contact-info {
@@ -166,7 +173,7 @@ footer#contact-info {
     bottom:             0;
     margin:             6px 9px;
     text-align:         right;
-    font-size:          15px;
+    font-size:          14px;
     }
 
 footer#contact-info ul {
