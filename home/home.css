@@ -72,8 +72,8 @@ nav#main ul {
 nav#main li#digifabshop-logo {
     text-transform:     lowercase;
     font-family:        DistrictBlack;
-    letter-spacing:     -1px;
-    font-size:          20px;
+    letter-spacing:     -2px;
+    font-size:          32px;
     }
 
 
@@ -82,7 +82,7 @@ nav#main li {
     text-transform:     uppercase;
     font-weight:        normal;
     font-family:        DistrictThin;
-    font-size:          16px;
+    font-size:          24px;
     }
 
 nav#main a {
@@ -102,14 +102,22 @@ nav#main img {
     display:            flex;
     align-items:        flex-end;
     justify-content:    center;
-    top:                36px;
-    left:               36px;
-    right:              36px;
-    bottom:             36px;
+    top:                64px;
+    left:               64px;
+    right:              64px;
+    bottom:             64px;
     background-size:    contain;
     background-repeat:  no-repeat;
     background-position:50% 50%;
+    -webkit-animation:  blur 1s ease;
     }
+.blur {
+}
+
+@-webkit-keyframes blur {
+  0%  { opacity: 0.0; -webkit-filter: blur(4px); -webkit-transform: scale(0.98); }
+  100% { opacity: 1.0; -webkit-filter: blur(0px); -webkit-transform: scale(1.0); }
+}
 
 #feed figure .image.tall {
     background-image:   url('images/main-tall.jpg');
@@ -169,13 +177,21 @@ footer li {
     display:            inline;
     }
 
-footer a {
+footer>ul>li>a {
     padding:            2px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #111;
+    height: 1.5rem;
+    width: 1.5rem;
+    line-height: 1.8rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
     }
 
 
 footer .contact-info {
-    position: relative;
     font-weight: normal;
     font-family: DistrictThin;
     }
@@ -185,29 +201,33 @@ footer .contact-info {
     font-weight: bold;
     font-style: italic;
     font-size: 21px;
-}
+    }
 
 footer .contact-info .additional-info {
-    position: absolute;
-    display: none;
-    width: 0;
-    height: 0;
+    position:           absolute;
+    display:            block;
+    right:              0;
+    width:              0;
+    height:             0;
     }
+
 
 footer .contact-info .additional-info ul {
     position: absolute;
-    top: 0.4em;
-    left: -5em;
-    width: 10em;
+    top: 0;
+    right: 0;
+    -webkit-transform: translate3d(185px, -6px, 0);
+    transition: all 400ms ease-out;
     padding: 0.4em;
-    background: rgba(0,0,0, 0.85);
-    color: #fff;
+    background: rgba(255,255,255, 0.85);
+    color: #111;
+    box-shadow: 0px 3px 12px rgba(0,0,0, 0.3);
     }
 
 footer .contact-info .additional-info ul li {
     display: block;
     }
 
-footer .contact-info:hover .additional-info {
-    display: block;
-}
+footer .contact-info:hover .additional-info ul  {
+    -webkit-transform: translate3d(0, -6px, 0);
+    }
