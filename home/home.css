@@ -60,9 +60,11 @@ li {
 /* MAIN NAV */
 nav#main {
     position:           absolute;
+    z-index:            100;
     top:                0;
     left:               0;
     margin:             9px 8px;
+    -webkit-transform:  translateZ(0);
     }
 
 nav#main ul {

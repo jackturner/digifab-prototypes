@@ -1,0 +1,23 @@
+#us .section {
+	padding: 0 36px 0 18px;
+	background-color: #FFF;
+	color: #111;
+	font-family: DistrictThin;
+	}
+
+#us .section ol {
+	list-style: square;
+	padding-left: 1em;
+	}
+
+#us .section h1 {
+	margin: 0.6em 0 0.2em;
+	font-size: 22px;
+	font-family: DistrictBook;
+	}
+
+@media screen and (min-width: 640px) {
+#us .section {
+	padding: 0 28%;
+    }
+}
