@@ -6,8 +6,11 @@
 	}
 
 #us .section ol {
-	list-style: square;
 	padding-left: 1em;
+	}
+
+#us .section li {
+	list-style: square;
 	}
 
 #us .section h1 {
