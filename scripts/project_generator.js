@@ -7,7 +7,7 @@ var random_project = function (num) {
 	  "location_name": faker.fake("{{address.city}}, {{address.stateAbbr}}"),
 	  "location": faker.fake("{{address.latitude}},{{address.longitude}}"),
 	  "cost_dollars": parseInt(faker.commerce.price(8000, 500000)),
-	  "description": faker.lorem.paragraph,
+	  "description": faker.lorem.paragraph(),
 	  "thumbnail": "images/projects/" + (num+1) + ".jpg"
 	}
 }
