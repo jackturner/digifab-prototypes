@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Schaden LLC",
+    "location_name": "Ebertland, AK",
+    "location": "20.3700,-32.4163",
+    "cost_dollars": 306789,
+    "thumbnail": "images/projects/1.jpg"
+  },
+  {
+    "name": "Lind, Sipes and Bernier",
+    "location_name": "Lake Barry, MI",
+    "location": "76.0683,170.3739",
+    "cost_dollars": 183660,
+    "thumbnail": "images/projects/2.jpg"
+  },
+  {
+    "name": "Kihn LLC",
+    "location_name": "West Liana, NV",
+    "location": "-32.5975,-88.5486",
+    "cost_dollars": 355095,
+    "thumbnail": "images/projects/3.jpg"
+  },
+  {
+    "name": "Huels, Pouros and Corkery",
+    "location_name": "East Pierreshire, NJ",
+    "location": "82.5959,-24.0018",
+    "cost_dollars": 57251,
+    "thumbnail": "images/projects/4.jpg"
+  },
+  {
+    "name": "Hoeger, Daugherty and McLaughlin",
+    "location_name": "Anaismouth, MS",
+    "location": "-18.2436,-92.4207",
+    "cost_dollars": 110746,
+    "thumbnail": "images/projects/5.jpg"
+  },
+  {
+    "name": "Braun - Dietrich",
+    "location_name": "North Estaview, DE",
+    "location": "-57.4904,-13.0423",
+    "cost_dollars": 309098,
+    "thumbnail": "images/projects/6.jpg"
+  },
+  {
+    "name": "Swaniawski - Bosco",
+    "location_name": "Pollichchester, NC",
+    "location": "-66.9843,-31.8799",
+    "cost_dollars": 425003,
+    "thumbnail": "images/projects/7.jpg"
+  },
+  {
+    "name": "Champlin, Kirlin and Labadie",
+    "location_name": "Einarport, MS",
+    "location": "45.7105,144.1542",
+    "cost_dollars": 328091,
+    "thumbnail": "images/projects/8.jpg"
+  },
+  {
+    "name": "Mosciski - Mante",
+    "location_name": "Rodtown, MT",
+    "location": "88.9390,99.6193",
+    "cost_dollars": 331884,
+    "thumbnail": "images/projects/9.jpg"
+  },
+  {
+    "name": "Osinski, Rogahn and Jerde",
+    "location_name": "North Leopoldo, SC",
+    "location": "-50.0572,159.3092",
+    "cost_dollars": 164100,
+    "thumbnail": "images/projects/10.jpg"
+  },
+  {
+    "name": "O'Kon - Stehr",
+    "location_name": "Giabury, MT",
+    "location": "9.8801,-89.7885",
+    "cost_dollars": 73037,
+    "thumbnail": "images/projects/11.jpg"
+  },
+  {
+    "name": "Johnson, Grant and Gislason",
+    "location_name": "New Daveshire, AL",
+    "location": "0.6898,11.0310",
+    "cost_dollars": 338307,
+    "thumbnail": "images/projects/12.jpg"
+  }
+]
