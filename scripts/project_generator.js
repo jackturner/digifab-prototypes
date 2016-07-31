@@ -3,7 +3,7 @@ var faker = require('faker'),
 
 var random_project = function (num) {
 	return {
-	  "name": faker.company.companyName(),
+	  "name": faker.commerce.productName(),
 	  "location_name": faker.fake("{{address.city}}, {{address.stateAbbr}}"),
 	  "location": faker.fake("{{address.latitude}},{{address.longitude}}"),
 	  "cost_dollars": parseInt(faker.commerce.price(8000, 500000)),

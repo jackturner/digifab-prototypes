@@ -38,24 +38,43 @@ html {
 @font-face {font-family: 'DistrictBlackItalic';src: url('../webfonts/1CE0F0_2_0.eot');src: url('../webfonts/1CE0F0_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_2_0.woff') format('woff'),url('../webfonts/1CE0F0_2_0.ttf') format('truetype');} 
 
 #project-cards {
-    display:            flex;
-    justify-content:    space-around;
-    align-items:        center;
     position:           absolute;
     width:              100%;
     height:             100%;
     font-family:        DistrictBlackItalic;
     color:              white;
+    text-align:         left;
+    font-size:          0;
+    vertical-align:     top;
 	}
 
 .project-card {
+    text-align:         left;
+    margin:             12px 1.6666666665%;
+    display:            inline-block;
     position:           relative;
     width:              30%;
     height:             120px;
     background-size:    cover;
     background-position:50%;
     box-shadow:         0 1px 6px rgba(0,0,0, 0.3);
+    overflow: hidden;
     }
+
+@media screen and (max-width: 960px) {
+.project-card {
+    width:              45%;
+    margin:             12px 2.5%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+.project-card {
+    width:              90%;
+    margin:             12px 5%;
+    }
+}
+
 
 .project-card .filter {
     position:           absolute;
@@ -70,6 +89,7 @@ html {
     }
 
 .project-card .name {
-    font-size:          24px;
+    font-size:          20px;
     text-shadow:        0 1px 4px rgba(0,0,0, 0.3);
+    white-space: nowrap;
     }
