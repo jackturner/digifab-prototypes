@@ -6,22 +6,44 @@
     <title>filtering-prototype</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="noUiSlider.8.5.1/nouislider.min.css">
     <link rel="stylesheet" href="filtering.css">
   </head>
   <body>
 
-    <div id="project-cards">
 
-      <!-- <div class="project-card" style="background-image: url('images/project/.jpg');">
-        <div class="filter"></div>
-        <div class="content">
-          <span class="name"></span>
+    <div id="filtering">
+      Filter by:
+
+      <nav id="filter-nav">
+        <span class="filter-toggle" data-filter="client">Client</span>,
+        <span class="filter-toggle" data-filter="cost">Cost</span>,
+        <span class="filter-toggle" data-filter="location">Location</span>
+      </nav>
+
+      <div id="filters">
+
+        <div class="filter" id="filter-client">
+          select a client…
         </div>
-      </div> -->
 
+        <div class="filter" id="filter-cost">
+          select a range…<br /><br />
+          <div id="cost-slider"></div>
+        </div>
+
+        <div class="filter" id="filter-location">
+          select a location…
+        </div>
+
+      </div>
     </div>
 
+    <div id="project-cards"></div>
+
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="noUiSlider.8.5.1/nouislider.min.js"></script>
+    <script src="../bower_components/isotope/dist/isotope.pkgd.min.js"></script>
     <script src="filtering.js"></script>
   </body>
 </html>

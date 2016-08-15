@@ -4,17 +4,17 @@ var faker = require('faker'),
 var random_project = function (num) {
 	return {
 	  "name": faker.commerce.productName(),
-	  "location_name": faker.fake("{{address.city}}, {{address.stateAbbr}}"),
-	  "location": faker.fake("{{address.latitude}},{{address.longitude}}"),
-	  "cost_dollars": parseInt(faker.commerce.price(8000, 500000)),
+	  "location": faker.fake("{{address.city}}, {{address.stateAbbr}}"),
+	  "location_lat_lon": faker.fake("{{address.latitude}},{{address.longitude}}"),
+	  "cost": parseInt(faker.commerce.price(20000, 500000)),
 	  "description": faker.lorem.paragraph(),
-	  "thumbnail": "images/projects/" + (num+1) + ".jpg"
+	  "thumbnail": "images/projects/" + (num%12+1) + ".jpg"
 	}
 }
 
 var projects = []
 
-for (var i = 0; i < 12; i++)
+for (var i = 0; i < 500; i++)
 	projects.push( random_project(i) )
 
 console.log(projects)

@@ -76,7 +76,7 @@ html {
 }
 
 
-.project-card .filter {
+.project-card .blur {
     position:           absolute;
     width:              100%;
     height:             100%;
@@ -92,4 +92,20 @@ html {
     font-size:          20px;
     text-shadow:        0 1px 4px rgba(0,0,0, 0.3);
     white-space: nowrap;
+    }
+
+
+/* FILTERS */
+#filter-nav {
+    display:            inline;
+    }
+
+.filter-toggle {
+    text-decoration:    underline;
+    cursor:             pointer;
+    }
+
+.filter {
+    display:            none;
+    margin:             18px 4%;
     }
