@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="noUiSlider.8.5.1/nouislider.min.css">
     <link rel="stylesheet" href="filtering.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.js"></script>
+    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.22.0/mapbox-gl.css" />
   </head>
   <body>
 
@@ -33,7 +35,10 @@
         </div>
 
         <div class="filter" id="filter-location">
-          select a location…
+          select a location…<br /><br />
+          <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
+          <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
+          <div id='map' style='width:100%;height: 300px;'></div>
         </div>
 
       </div>
