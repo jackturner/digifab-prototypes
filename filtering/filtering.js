@@ -1,24 +1,30 @@
 // map.getBounds().toArray()
 
-$(function() {
-
+var dfs = (function() {
+  
 	var $project_card_container = $('#project-cards'),
-			$project_cards
+			$project_cards,
+			_map,
+			_projects
 
-	var build_projects = function (projects) {
+	var build_projects = function (projects_json) {
 
-		for(var i = 0; i < projects.length; i++) {
+		_projects = projects_json
 
-			var project = projects[i]
+		for(var i = 0; i < _projects.length; i++) {
 
-			$('<div class="project-card"/>')
-				.css('background-image', 'url("' + project.thumbnail + '")')
-				.data(project)
-				.append('<div class="blur" />')
-				.append('<div class="content"><span class="name">' + project.name	 + '</span>' + 
-								'<span class="info cost">$' + numberWithCommas(project.cost) + '</span>' + 
-								'<span class="info location">' + project.location + '</span></div>')
-				.appendTo($project_card_container)
+			var project = _projects[i]
+
+			var el = $('<div class="project-card"/>')
+								.css('background-image', 'url("' + project.thumbnail + '")')
+								.data(project)
+								.append('<div class="blur" />')
+								.append('<div class="content"><span class="name">' + project.name	 + '</span>' + 
+												'<span class="info cost">$' + numberWithCommas(project.cost) + '</span>' + 
+												'<span class="info location">' + project.location + '</span></div>')
+								.appendTo($project_card_container)
+
+			_projects[i].el = el
 
 		}
 
@@ -54,14 +60,25 @@ $(function() {
 	var show_location = function() {
 		console.log('show_location()')
 
+		// Create map with geocoder (aka search box)
     mapboxgl.accessToken = 'pk.eyJ1IjoiamFja3R1cm5lciIsImEiOiJjaXJ4a2gzcm8wMGNwMnpsZWV0cjZnMm9mIn0.6z2T5s2R2jjGHAEb2Dtm4A'
-    var map = new mapboxgl.Map({
+    _map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/outdoors-v9',
-      center: [-73.8051687, 42.2512107],
-      zoom: 5
+      center: [-94, 39],
+      zoom: 3
     })
-    map.addControl(new mapboxgl.Geocoder())
+
+    _map.addControl(new mapboxgl.Geocoder())
+
+    // Add markers for all projects
+		for(var i = 0; i < _projects.length; i++) {
+
+			var project = _projects[i]
+
+	    var marker = new mapboxgl.Marker().setLngLat([project.location_lon, project.location_lat]).addTo(_map)
+
+	  }
 
 	}
 
@@ -94,12 +111,15 @@ $(function() {
 	}
 
 	var numberWithCommas = function(x) {
-	    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 	}
 
 	$.getJSON( "projects.json", build_projects)
 	$('.filter-toggle').click(toggle_filter)
 	setup_cost_slider()
 
+	return {
+		projects: function() { return _projects }
+	}
 
-})
+})();
