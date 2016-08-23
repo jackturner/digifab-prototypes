@@ -1,8 +1,10 @@
 var dfs = (function() {
   
 	var $project_card_container = $('#project-cards'),
+			$client_card_container = $('#client-cards'),
 			$project_cards,
 			_map,
+			_clients,
 			_projects
 
 	var build_projects = function (projects_json) {
@@ -13,7 +15,7 @@ var dfs = (function() {
 
 			var project = _projects[i]
 
-			var el = $('<div class="project-card"/>')
+			var el = $('<div class="project-card card"/>')
 								.css('background-image', 'url("' + project.thumbnail + '")')
 								.data(project)
 								.append('<div class="blur" />')
@@ -27,6 +29,25 @@ var dfs = (function() {
 		}
 
 		$project_cards = $('.project-card')
+
+	}
+
+	var build_clients = function (clients_json) {
+
+		_clients = clients_json
+
+		for(var i = 0; i < _clients.length; i++) {
+
+			var client = _clients[i]
+
+			var el = $('<div class="client-card card"/>')
+								.data(client)
+								.append('<div class="content"><span class="name">' + client.name	 + '</span></div>')
+								.appendTo($client_card_container)
+
+			el.click(filter_by_client)
+
+		}
 
 	}
 
@@ -84,11 +105,26 @@ var dfs = (function() {
 
 	}
 
+	var filter_by_client = function (client_el) {
+
+		var searching_for_client_id = $(client_el.currentTarget).data('id')
+
+		$project_cards.each(function() {
+			var $this = $(this),
+					this_client_id = $this.data('client_id')
+
+			if(this_client_id == searching_for_client_id)
+				$this.show()
+			else
+				$this.hide()
+		})
+
+
+	}
+
 	var filter_by_location = function() {
 
   	var bounds = _map.getBounds().toArray()
-
-  	console.log(bounds[0])
 
 		$project_cards.each(function() {
 			var $this = $(this),
@@ -101,7 +137,6 @@ var dfs = (function() {
 			else
 				$this.hide()
 		})
-
 
 	}
 
@@ -137,6 +172,7 @@ var dfs = (function() {
 		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 	}
 
+	$.getJSON( "clients.json", build_clients)
 	$.getJSON( "projects.json", build_projects)
 	$('.filter-toggle').click(toggle_filter)
 	setup_cost_slider()
