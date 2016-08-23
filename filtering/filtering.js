@@ -1,5 +1,3 @@
-// map.getBounds().toArray()
-
 var dfs = (function() {
   
 	var $project_card_container = $('#project-cards'),
@@ -62,7 +60,7 @@ var dfs = (function() {
 
 		// Create map with geocoder (aka search box)
     mapboxgl.accessToken = 'pk.eyJ1IjoiamFja3R1cm5lciIsImEiOiJjaXJ4a2gzcm8wMGNwMnpsZWV0cjZnMm9mIn0.6z2T5s2R2jjGHAEb2Dtm4A'
-    _map = new mapboxgl.Map({
+		_map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/outdoors-v9',
       center: [-94, 39],
@@ -79,6 +77,31 @@ var dfs = (function() {
 	    var marker = new mapboxgl.Marker().setLngLat([project.location_lon, project.location_lat]).addTo(_map)
 
 	  }
+
+	  _map.on('moveend', function() {
+	  	filter_by_location()
+	  })
+
+	}
+
+	var filter_by_location = function() {
+
+  	var bounds = _map.getBounds().toArray()
+
+  	console.log(bounds[0])
+
+		$project_cards.each(function() {
+			var $this = $(this),
+					lon = $this.data('location_lon'),
+					lat = $this.data('location_lat')
+
+			if( bounds[0][0] <= lon && lon <= bounds[1][0] &&
+					bounds[0][1] <= lat && lat <= bounds[1][1] )
+				$this.show()
+			else
+				$this.hide()
+		})
+
 
 	}
 
