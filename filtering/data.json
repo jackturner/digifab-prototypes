@@ -1,0 +1,5722 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Haley, Thompson and Quigley",
+      "description": "Molestias natus ab. Et qui ut labore sed consectetur fugit. Sunt id eveniet fugiat animi minima commodi eaque. Et et ipsa natus adipisci officia iure consectetur velit commodi. Tempora vero accusantium sint expedita similique facere odio qui."
+    },
+    {
+      "id": 2,
+      "name": "Haag - Ebert",
+      "description": "Iste modi id et quas velit vel. Perferendis maxime necessitatibus dolor excepturi dolorum reprehenderit saepe dolores. Consequatur repudiandae qui. Ipsa architecto architecto beatae aliquid."
+    },
+    {
+      "id": 3,
+      "name": "Zieme LLC",
+      "description": "Atque necessitatibus aut quaerat modi. Molestiae unde consequuntur est repellat cum architecto nemo nostrum. Incidunt neque aliquid velit ut voluptatum quo cupiditate. Unde est occaecati magnam voluptas illo quasi."
+    },
+    {
+      "id": 4,
+      "name": "Lockman Inc",
+      "description": "Commodi et perferendis delectus est. Occaecati ut eum reiciendis. Quam sed ducimus accusamus expedita aut. Recusandae cumque consequatur quia blanditiis. Qui placeat velit iste eligendi molestiae voluptas qui. Ipsam est repellat quis sapiente non voluptas."
+    },
+    {
+      "id": 5,
+      "name": "Halvorson LLC",
+      "description": "Odit et velit animi quos fugit et aliquam. Consequuntur occaecati facere corporis possimus saepe sed omnis atque. Ut ut molestiae et ab omnis fuga praesentium. Non provident est tempora est esse."
+    },
+    {
+      "id": 6,
+      "name": "Kris, Hermiston and Schneider",
+      "description": "Delectus eaque voluptatem temporibus illo voluptatibus. Voluptas quibusdam quos quasi voluptatum quidem ipsum modi iure sed. Aut dolor omnis optio voluptas et."
+    },
+    {
+      "id": 7,
+      "name": "Smith, Labadie and Gutkowski",
+      "description": "Eaque rerum iusto aspernatur at voluptas quasi quo quia. Sit suscipit consequuntur autem voluptatum quia occaecati et. Expedita soluta consequatur recusandae repudiandae. Odio et voluptatibus dolorum saepe repellat aut eligendi nihil. Asperiores aut vel aut. Est nisi esse ut."
+    },
+    {
+      "id": 8,
+      "name": "Thiel - Brekke",
+      "description": "Quo sit quod ullam nobis ullam. Aliquid veritatis ea dolore. Occaecati a aut deleniti. Nesciunt deserunt maxime maxime omnis quia."
+    },
+    {
+      "id": 9,
+      "name": "Langworth, Kuhn and Medhurst",
+      "description": "Nihil qui dolore consequatur sed in qui explicabo hic autem. Sit optio est ut et aliquam. Commodi officia quasi. Dolor ab repellendus tempore saepe."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Incredible Plastic Shoes",
+      "location": "Kellieborough, WA",
+      "location_lat": "-37.1748",
+      "location_lon": "-101.1720",
+      "cost": 206297,
+      "description": "Eius dignissimos necessitatibus possimus. Libero quia quidem vel reprehenderit natus. Praesentium veniam fugiat ratione.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 1,
+      "status": "under_development",
+      "finish": [],
+      "software": [
+        3
+      ],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Small Metal Towels",
+      "location": "South Nevaburgh, VT",
+      "location_lat": "-81.6426",
+      "location_lon": "-66.5397",
+      "cost": 271824,
+      "description": "Assumenda deserunt molestias ea minima delectus architecto laboriosam. Ut sunt eos possimus hic doloribus voluptatem. Porro sit reiciendis reiciendis veritatis et.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [
+        3,
+        1
+      ],
+      "software": [
+        2,
+        4
+      ],
+      "technique": [],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Rustic Frozen Hat",
+      "location": "South Elenor, AL",
+      "location_lat": "-89.5472",
+      "location_lon": "76.2418",
+      "cost": 493590,
+      "description": "Ullam molestias consequatur. Tempora magnam quas et sed perspiciatis modi. Eos et exercitationem perspiciatis quia velit rerum sit inventore quasi. Distinctio tempore maxime.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        4
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Handmade Steel Mouse",
+      "location": "Ullrichbury, IA",
+      "location_lat": "29.3991",
+      "location_lon": "44.2354",
+      "cost": 145244,
+      "description": "Quod sequi consequatur a id praesentium eos sed. Nesciunt est soluta cum ab sapiente doloribus iusto aperiam. Amet enim consequatur sunt libero illum ut facere.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        2
+      ],
+      "technique": [
+        2,
+        2
+      ],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Generic Plastic Gloves",
+      "location": "Romaguerashire, CT",
+      "location_lat": "-5.5610",
+      "location_lon": "-126.4550",
+      "cost": 246758,
+      "description": "Ut pariatur omnis quos unde et quis accusamus sed itaque. Voluptatum aut modi. Eum repellat iste atque cupiditate. Non eum eveniet animi reprehenderit voluptatem voluptas doloremque alias aut.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [
+        1
+      ],
+      "software": [
+        1
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 6,
+      "name": "Incredible Steel Table",
+      "location": "North Haileeville, AZ",
+      "location_lat": "-25.1172",
+      "location_lon": "105.7133",
+      "cost": 442992,
+      "description": "Et repellendus sunt quo maiores est dicta officiis error. Et ducimus sit rerum ut et iure et consequatur. Laudantium sunt exercitationem non magni pariatur omnis non. Deserunt quia sit exercitationem. Id cumque sint illum.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [
+        2
+      ],
+      "software": [
+        3,
+        2
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 7,
+      "name": "Tasty Concrete Table",
+      "location": "Leonoraland, WI",
+      "location_lat": "-61.3888",
+      "location_lon": "-17.2056",
+      "cost": 326629,
+      "description": "Quia voluptates voluptatem sed eligendi saepe facilis. Pariatur atque voluptas voluptas rerum dolor voluptas ut possimus. Eos repellendus culpa quia soluta quia qui incidunt. Velit neque cum quas iste facilis. Quia quo aut. Alias velit minima fuga non earum repudiandae et saepe.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 8,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Handcrafted Plastic Gloves",
+      "location": "North Myrlside, ND",
+      "location_lat": "38.2096",
+      "location_lon": "-109.5560",
+      "cost": 22211,
+      "description": "Aut doloremque aliquid provident. Qui animi quasi placeat aut. Assumenda sapiente ut. Ut at ullam iure porro quae fugit. Praesentium ipsum consequatur amet harum neque consequuntur. Dolorem eum nam.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [
+        3
+      ],
+      "software": [],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Rustic Fresh Car",
+      "location": "South Hassan, CT",
+      "location_lat": "17.1166",
+      "location_lon": "-149.3910",
+      "cost": 217322,
+      "description": "Iure ipsa debitis consequatur vero inventore. Hic id ut ut aut harum harum alias. Voluptatem repellendus eos sequi eaque dolores.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 9,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        2,
+        3
+      ],
+      "team": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Awesome Steel Keyboard",
+      "location": "West Jaylen, AZ",
+      "location_lat": "82.3227",
+      "location_lon": "161.5400",
+      "cost": 308912,
+      "description": "Aspernatur repudiandae rerum dolorum voluptatem rerum non et. Incidunt voluptas laborum hic. Reprehenderit nobis quo exercitationem hic. Ipsam facilis velit error. Sed atque enim. Qui neque corrupti.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        1,
+        1
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        1,
+        1
+      ],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Awesome Fresh Pants",
+      "location": "Rheafort, AL",
+      "location_lat": "34.1674",
+      "location_lon": "149.6621",
+      "cost": 471428,
+      "description": "Commodi mollitia maiores autem officia magni. Enim sit dolorem. Perferendis voluptatem est architecto inventore minima. Rerum ex eum sint doloremque qui.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [
+        4,
+        2
+      ],
+      "software": [],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 12,
+      "name": "Unbranded Granite Ball",
+      "location": "New Lesliestad, NJ",
+      "location_lat": "52.3126",
+      "location_lon": "-103.4347",
+      "cost": 296966,
+      "description": "Consequatur id eligendi possimus. Ut sed enim velit quo. Aut qui deserunt porro ab repellat quia quia. Doloremque laudantium voluptatem ad et voluptatem praesentium.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 2,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Practical Granite Keyboard",
+      "location": "New Sammyport, UT",
+      "location_lat": "63.9680",
+      "location_lon": "-44.5810",
+      "cost": 484303,
+      "description": "Velit suscipit qui sunt possimus. Sed sed officiis fugit facere ex vel voluptas maiores. Voluptatem minima cupiditate aut animi. Quis velit vitae ipsum impedit.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 5,
+      "status": "in_progress",
+      "finish": [
+        3
+      ],
+      "software": [],
+      "technique": [
+        3
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Rustic Frozen Car",
+      "location": "Port Isabellside, FL",
+      "location_lat": "-13.8685",
+      "location_lon": "74.4506",
+      "cost": 216982,
+      "description": "In maxime voluptatem suscipit dolor excepturi sed dolores ad et. Eaque corporis mollitia id non deserunt. In eveniet amet atque ea. Est voluptas omnis consequatur. Reprehenderit temporibus nihil sunt quaerat ut.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [
+        3,
+        2
+      ],
+      "software": [
+        4
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Tasty Plastic Shirt",
+      "location": "Lake Trinity, SC",
+      "location_lat": "7.1739",
+      "location_lon": "174.2676",
+      "cost": 211281,
+      "description": "Delectus qui excepturi harum ut maxime. Minus ut consequatur dolorum sit molestias aspernatur. Tenetur minus aut impedit ipsam.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        1
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Refined Fresh Sausages",
+      "location": "East Deshaunfurt, PA",
+      "location_lat": "-89.0879",
+      "location_lon": "-32.4746",
+      "cost": 141271,
+      "description": "Quo illo at excepturi ex sunt quidem. Vel rerum ipsa voluptates. Aut adipisci blanditiis soluta nihil id modi incidunt fugit.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        1,
+        4
+      ],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        2,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 17,
+      "name": "Awesome Frozen Car",
+      "location": "Herzogtown, CA",
+      "location_lat": "5.1226",
+      "location_lon": "122.7563",
+      "cost": 200019,
+      "description": "Perferendis aut fuga tempora accusantium vel eveniet. Nemo quis quasi voluptatem omnis excepturi quibusdam voluptatum voluptatem. Nemo placeat reprehenderit sunt non illum corporis quia. Corporis velit in odit qui hic delectus. Quis omnis ut eius enim inventore tempore natus error iure. Alias quo ut nostrum expedita error nesciunt animi.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [
+        1,
+        2
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Ergonomic Fresh Car",
+      "location": "Port Makaylaville, KY",
+      "location_lat": "23.1428",
+      "location_lon": "-125.3776",
+      "cost": 228699,
+      "description": "Quisquam dicta officia maxime odio aliquam mollitia deserunt. Nostrum cupiditate et in. Occaecati iure explicabo expedita id dolorem eos. Nostrum et quia illum quia magnam et. Dignissimos omnis sunt sequi nemo et porro quaerat consectetur. Quasi eos dolores.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        1
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Gorgeous Steel Chips",
+      "location": "West Buford, TN",
+      "location_lat": "-56.8206",
+      "location_lon": "-152.5613",
+      "cost": 483055,
+      "description": "Fuga et est. Ad quo voluptas odio. Cupiditate eos et perspiciatis eius. Vitae sit ipsa voluptatibus voluptatem necessitatibus qui. Magni ullam consequatur.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 9,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Rustic Plastic Bike",
+      "location": "Quigleychester, MA",
+      "location_lat": "-44.0601",
+      "location_lon": "-40.6789",
+      "cost": 322177,
+      "description": "Molestiae sed a quia ad beatae molestiae. Molestiae et itaque numquam quaerat dicta amet perspiciatis. Dignissimos inventore voluptates ut at dolores porro. Nisi harum rerum ipsum unde culpa repudiandae illo minus et. Eum blanditiis pariatur laudantium vel occaecati odio.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 21,
+      "name": "Incredible Cotton Bacon",
+      "location": "Heathcotefurt, VT",
+      "location_lat": "69.5334",
+      "location_lon": "-104.9199",
+      "cost": 167056,
+      "description": "Amet necessitatibus sed quis ut magnam odio in. Aliquid provident sit optio. Illum mollitia quisquam culpa reiciendis voluptatem facilis est eos omnis.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 4,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 22,
+      "name": "Handmade Soft Computer",
+      "location": "South Fidelview, ID",
+      "location_lat": "6.5776",
+      "location_lon": "-25.3456",
+      "cost": 351177,
+      "description": "Voluptatibus error blanditiis dicta qui aliquid nam qui sequi ut. Totam deleniti porro officia. Non molestiae praesentium eum sint pariatur aut enim enim quisquam.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [
+        3
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Handcrafted Steel Fish",
+      "location": "Lake Marcport, WV",
+      "location_lat": "12.6228",
+      "location_lon": "66.8921",
+      "cost": 95462,
+      "description": "Consequuntur sit ratione adipisci aperiam distinctio quidem reiciendis voluptatem et. Ut pariatur repellendus sequi inventore consequuntur. Earum qui qui id ut reiciendis est aut rerum commodi. Est aliquam modi fuga vel quia sit labore molestias consequuntur. Cumque ut hic ut sit nobis mollitia.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 2,
+      "status": "in_progress",
+      "finish": [
+        4,
+        3
+      ],
+      "software": [
+        2,
+        2
+      ],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Unbranded Steel Tuna",
+      "location": "North Petra, IA",
+      "location_lat": "-36.7063",
+      "location_lon": "-6.3746",
+      "cost": 276814,
+      "description": "Enim sit earum blanditiis et voluptatibus est ut tenetur. Id consequatur non nesciunt sint beatae delectus. Assumenda est sunt optio quibusdam vel.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 8,
+      "status": "under_development",
+      "finish": [],
+      "software": [
+        4,
+        3
+      ],
+      "technique": [],
+      "machine": [
+        1,
+        1
+      ],
+      "hardware": [],
+      "team": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Practical Concrete Hat",
+      "location": "Lake Oranton, MI",
+      "location_lat": "-28.7700",
+      "location_lon": "68.9245",
+      "cost": 326652,
+      "description": "Et totam pariatur. Facere distinctio rerum repudiandae. Eius sapiente sequi ut dolor et fugiat voluptatem numquam. Similique illum earum.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 4,
+      "status": "under_development",
+      "finish": [
+        4,
+        3
+      ],
+      "software": [
+        4,
+        2
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 26,
+      "name": "Handmade Wooden Salad",
+      "location": "Powlowskimouth, WY",
+      "location_lat": "-76.8562",
+      "location_lon": "0.7531",
+      "cost": 196494,
+      "description": "Veniam quasi et. Ipsam et magnam vel aspernatur sint. Sunt aliquam facilis placeat omnis velit fuga sint nam. Enim hic consequatur rem sequi accusantium.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 3,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2
+      ],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Refined Cotton Pants",
+      "location": "South Lolaview, VA",
+      "location_lat": "-0.3555",
+      "location_lon": "3.5379",
+      "cost": 388491,
+      "description": "Et sunt distinctio voluptates. Ratione voluptas a reiciendis adipisci animi est doloremque voluptatibus. Repellendus eligendi facilis aut ut quae dolorem nostrum veniam. Voluptatem corrupti dolor numquam beatae sint rem id minima. Nihil voluptatem ut quasi qui corporis expedita libero iusto tempora.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 3,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        2,
+        1
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        1
+      ],
+      "team": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Intelligent Metal Fish",
+      "location": "West Emie, GA",
+      "location_lat": "71.4833",
+      "location_lon": "133.5109",
+      "cost": 306173,
+      "description": "Molestiae aut omnis esse est enim consectetur. Et optio odio ut temporibus ducimus facere molestiae maiores. Veritatis consequatur autem ut.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 8,
+      "status": "under_development",
+      "finish": [
+        4,
+        1
+      ],
+      "software": [],
+      "technique": [
+        1,
+        1
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Sleek Plastic Shoes",
+      "location": "South Bruceborough, OR",
+      "location_lat": "23.3359",
+      "location_lon": "-28.6300",
+      "cost": 212736,
+      "description": "Est maiores quibusdam quis et sint blanditiis quas quia. Et ipsum aut sed dolor aut nam possimus aut dolorum. Soluta corporis perspiciatis nesciunt aut magnam aut.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        2
+      ],
+      "technique": [],
+      "machine": [
+        1
+      ],
+      "hardware": [],
+      "team": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Practical Steel Chips",
+      "location": "East Tevinhaven, HI",
+      "location_lat": "-24.0990",
+      "location_lon": "28.5990",
+      "cost": 477118,
+      "description": "Temporibus id et aut est expedita ut. Ipsa neque deleniti. Ad blanditiis molestiae et aliquid aut quis ut.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 1,
+      "status": "under_development",
+      "finish": [],
+      "software": [
+        1,
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 31,
+      "name": "Incredible Soft Pizza",
+      "location": "East Hailie, IL",
+      "location_lat": "-4.5664",
+      "location_lon": "-87.8053",
+      "cost": 27276,
+      "description": "Quia consequuntur molestias quaerat. Sit quisquam provident nam est ab. Voluptas possimus dolorem.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 3,
+      "status": "under_development",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 32,
+      "name": "Awesome Metal Ball",
+      "location": "West Lourdes, MO",
+      "location_lat": "67.8359",
+      "location_lon": "45.1925",
+      "cost": 353909,
+      "description": "Voluptatum temporibus dicta minus qui corrupti. Autem occaecati quasi saepe molestiae nam officia similique. Aspernatur beatae soluta ullam dignissimos omnis repellendus dolorum. Voluptas facere et pariatur voluptatem maiores. Ipsam itaque doloremque voluptas voluptatem.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [
+        3
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [],
+      "hardware": [
+        2,
+        1
+      ],
+      "team": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Gorgeous Wooden Hat",
+      "location": "South Kayahaven, MO",
+      "location_lat": "-65.8983",
+      "location_lon": "-128.4611",
+      "cost": 145169,
+      "description": "Rem natus minus rerum culpa quasi. In et ab sed repellat aut doloribus laudantium consequatur. Et aut reiciendis amet assumenda esse ut consequatur sit ad.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [
+        1,
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Tasty Metal Car",
+      "location": "North Anabel, TN",
+      "location_lat": "77.0696",
+      "location_lon": "114.2071",
+      "cost": 218343,
+      "description": "Autem eaque maxime beatae est similique et ratione. Illum doloremque ut odio. Voluptates est pariatur quia atque labore. Assumenda beatae impedit neque sed quia qui.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        4,
+        2
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 35,
+      "name": "Fantastic Plastic Ball",
+      "location": "Leilanishire, UT",
+      "location_lat": "72.5476",
+      "location_lon": "-176.9954",
+      "cost": 202940,
+      "description": "Iusto tenetur tempora saepe optio doloribus tempora occaecati est et. Omnis cupiditate non est necessitatibus. Minima velit tempore et optio molestias excepturi.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 36,
+      "name": "Handmade Metal Shoes",
+      "location": "Nolamouth, NY",
+      "location_lat": "-42.7401",
+      "location_lon": "-9.8494",
+      "cost": 82295,
+      "description": "Ut enim cumque rem. Ut tenetur aut dolorum consequatur tempore provident velit accusantium voluptatem. Quae rerum maxime assumenda qui praesentium. Quisquam molestiae magnam corrupti voluptatibus voluptas autem. Magnam ut pariatur dolor. Eveniet ut voluptatem voluptas rerum.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        1,
+        3
+      ],
+      "software": [],
+      "technique": [
+        3
+      ],
+      "machine": [
+        1,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Unbranded Granite Chips",
+      "location": "Mayertfort, MA",
+      "location_lat": "1.9630",
+      "location_lon": "-136.2467",
+      "cost": 295942,
+      "description": "Exercitationem corporis expedita temporibus sit sint. Laborum et nobis ex. Quia aspernatur doloribus. Consequatur ut aliquid. Id ad architecto ut delectus consequuntur labore.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        4,
+        3
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Generic Fresh Cheese",
+      "location": "Lindport, SC",
+      "location_lat": "-38.9514",
+      "location_lon": "-72.4222",
+      "cost": 336673,
+      "description": "Doloremque atque odit nihil explicabo voluptatem accusantium quasi. Vel consequatur voluptatem repudiandae. Non consequuntur molestias fugiat commodi nesciunt sit. Qui voluptate recusandae maiores at ex.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 5,
+      "status": "under_development",
+      "finish": [],
+      "software": [
+        4
+      ],
+      "technique": [],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 39,
+      "name": "Generic Cotton Pants",
+      "location": "West Lavada, NM",
+      "location_lat": "-30.9825",
+      "location_lon": "27.9347",
+      "cost": 341810,
+      "description": "Quia autem quo consequuntur. Sed omnis enim est voluptatem. Dignissimos magnam deleniti saepe.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        1
+      ],
+      "team": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Practical Granite Towels",
+      "location": "West Verda, NV",
+      "location_lat": "-40.4665",
+      "location_lon": "50.8882",
+      "cost": 102696,
+      "description": "Enim dolore aut exercitationem qui est amet consequatur. Assumenda ea voluptate ut eligendi facilis autem ullam. Sint modi exercitationem nisi qui excepturi quibusdam rerum velit hic. Ipsum atque labore.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 7,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        3,
+        3
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        2,
+        1
+      ],
+      "team": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Handcrafted Granite Pizza",
+      "location": "New Jose, NM",
+      "location_lat": "84.4287",
+      "location_lon": "-93.7748",
+      "cost": 419016,
+      "description": "Sunt veniam repudiandae quam et sunt. Commodi est quo. Est rerum ducimus totam illum nam. Reiciendis ut voluptatum iusto autem quae eveniet nemo.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 3,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Licensed Rubber Pants",
+      "location": "North Baronshire, MD",
+      "location_lat": "31.3795",
+      "location_lon": "28.9434",
+      "cost": 346706,
+      "description": "Soluta assumenda quae eos vitae sed quidem. Vero aut mollitia ducimus nesciunt. Voluptatem aperiam quia. Laudantium tenetur laboriosam necessitatibus rerum repellat atque consequuntur.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [
+        3
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Fantastic Granite Fish",
+      "location": "South Isacfurt, IA",
+      "location_lat": "52.3039",
+      "location_lon": "113.6467",
+      "cost": 352076,
+      "description": "Accusamus dolorem explicabo voluptate nihil expedita fugiat repellendus. Explicabo optio at. Eum sapiente molestiae molestias. Libero libero ut fuga vel rerum. Voluptatem eos et. Fugiat eius distinctio sed reprehenderit temporibus neque unde.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 6,
+      "status": "under_development",
+      "finish": [
+        2,
+        4
+      ],
+      "software": [],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 44,
+      "name": "Unbranded Concrete Bacon",
+      "location": "South Santos, OH",
+      "location_lat": "3.3711",
+      "location_lon": "-42.3899",
+      "cost": 282512,
+      "description": "Eum perferendis est ut molestiae adipisci occaecati corporis omnis nostrum. Error et enim veniam alias veritatis voluptatibus consectetur perspiciatis iste. Harum tempora natus. Voluptatem explicabo aspernatur ratione explicabo ipsum quos et optio omnis.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 3,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        4,
+        1
+      ],
+      "technique": [],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Ergonomic Frozen Pizza",
+      "location": "Brownfort, TX",
+      "location_lat": "-17.4526",
+      "location_lon": "-33.0177",
+      "cost": 419829,
+      "description": "Impedit animi ullam perferendis ut in ut earum. Molestias voluptas maiores quis nisi facilis nisi et iure. Commodi tenetur omnis.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Gorgeous Wooden Car",
+      "location": "Swiftport, AR",
+      "location_lat": "54.9547",
+      "location_lon": "-61.5925",
+      "cost": 471749,
+      "description": "Et rerum eaque iure maxime blanditiis. Ipsam explicabo vero aut qui id dolores est ut atque. Facilis id sit sequi qui. Impedit libero beatae molestiae molestiae dolores.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [
+        4,
+        4
+      ],
+      "software": [
+        1,
+        4
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Licensed Steel Shirt",
+      "location": "East Christop, NJ",
+      "location_lat": "-42.4817",
+      "location_lon": "-83.4090",
+      "cost": 341626,
+      "description": "Esse corporis aperiam hic perspiciatis vel quia. Inventore illo saepe quidem perferendis alias ipsum. Quia minima est laborum quos voluptas. Autem ad est occaecati commodi exercitationem fuga omnis praesentium repellendus. Repudiandae nulla labore officiis et fugit. Dicta ut sint velit ut ex assumenda soluta praesentium.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 48,
+      "name": "Sleek Soft Chicken",
+      "location": "Trantowview, NM",
+      "location_lat": "-45.3689",
+      "location_lon": "46.8518",
+      "cost": 195068,
+      "description": "Iusto deleniti suscipit est tempora. Officiis nihil dolores aut. Laudantium id laboriosam magnam illo. Aperiam est deserunt eius ipsam velit impedit commodi.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [
+        3,
+        3
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        1,
+        1
+      ],
+      "team": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Awesome Fresh Bike",
+      "location": "East Darrelltown, NJ",
+      "location_lat": "-68.4911",
+      "location_lon": "-113.4281",
+      "cost": 486816,
+      "description": "Vel facilis delectus ea. Eos vero adipisci velit eligendi aut eum. Eaque voluptas et quis nam pariatur.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 7,
+      "status": "completed",
+      "finish": [
+        4,
+        4
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Practical Concrete Cheese",
+      "location": "Lake Evalyn, SD",
+      "location_lat": "26.6206",
+      "location_lon": "-56.8532",
+      "cost": 71707,
+      "description": "Temporibus quo quia exercitationem non ex. Repellendus consequatur molestiae eaque saepe ut est dolores. Libero corrupti laboriosam. Facere ullam natus cumque neque voluptatum iste. Explicabo soluta omnis dolore voluptatum sapiente.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 8,
+      "status": "under_development",
+      "finish": [
+        3
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        2,
+        2
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 51,
+      "name": "Awesome Steel Keyboard",
+      "location": "Wisozkview, UT",
+      "location_lat": "79.6905",
+      "location_lon": "-49.6163",
+      "cost": 387230,
+      "description": "Odio aspernatur rerum delectus debitis non ad aut repudiandae. Corrupti autem dolorem facere harum temporibus praesentium quis. Quae eveniet dolore aperiam architecto. Aut itaque consequuntur. Aut fugiat voluptatem rem aspernatur officia.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        2
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Licensed Fresh Hat",
+      "location": "Abbotttown, IL",
+      "location_lat": "66.0270",
+      "location_lon": "-27.0644",
+      "cost": 229142,
+      "description": "Molestiae vitae occaecati repellendus laboriosam blanditiis aperiam et debitis. Quidem ea voluptatibus dolores qui neque ipsum delectus consequatur. Distinctio minus facere vero est voluptates nisi fugiat repudiandae.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 7,
+      "status": "under_development",
+      "finish": [
+        1
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Sleek Rubber Pants",
+      "location": "Gislasonview, KS",
+      "location_lat": "-51.0815",
+      "location_lon": "-157.3397",
+      "cost": 353151,
+      "description": "Tempora repudiandae eos repellat id aliquam. Suscipit reiciendis praesentium odit culpa eos aut debitis. Et voluptatem laboriosam porro odit inventore ex qui. Rerum dolores tempora et quisquam et dolorem error. Quod odit harum magni laborum delectus est.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 54,
+      "name": "Handcrafted Metal Mouse",
+      "location": "New Cristobalview, NV",
+      "location_lat": "72.2430",
+      "location_lon": "73.4064",
+      "cost": 114558,
+      "description": "Optio fuga non animi rerum dolor nisi ut ut. Sit veniam molestiae aliquid aliquid. Voluptatibus eius necessitatibus omnis voluptatem cumque quis quo ipsam. Omnis non autem rerum. Porro dolores debitis temporibus. A minima dolores earum vero aut magnam sed voluptatem ad.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 2,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        4
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2,
+        1
+      ],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 55,
+      "name": "Gorgeous Metal Soap",
+      "location": "Satterfieldborough, NE",
+      "location_lat": "78.8952",
+      "location_lon": "131.1958",
+      "cost": 25610,
+      "description": "Dolorem illum modi. Quo dignissimos voluptatem qui necessitatibus provident. Omnis est qui qui dolor tenetur deserunt adipisci tempore magnam.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        3,
+        3
+      ],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [
+        1,
+        3
+      ],
+      "hardware": [],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Refined Wooden Chicken",
+      "location": "West Aniyah, MT",
+      "location_lat": "12.3335",
+      "location_lon": "-40.0430",
+      "cost": 213964,
+      "description": "Ea ullam eius qui enim. Quam est quidem iste est exercitationem voluptatibus inventore quia illum. Reprehenderit doloremque dolorum aliquam quia temporibus odio quisquam ducimus. Rem voluptatem quod velit et. Commodi quod et tempore. Quo numquam amet qui.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 2,
+      "status": "in_progress",
+      "finish": [
+        4,
+        2
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 57,
+      "name": "Awesome Wooden Shoes",
+      "location": "West Juana, HI",
+      "location_lat": "47.9760",
+      "location_lon": "-97.6545",
+      "cost": 238811,
+      "description": "Eos in autem numquam. Doloribus vel qui ut qui dolore labore corporis cum. Tempore commodi labore. Porro vel deleniti sed quos. Asperiores neque non quaerat facere.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 6,
+      "status": "under_development",
+      "finish": [
+        4,
+        3
+      ],
+      "software": [
+        3,
+        1
+      ],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [],
+      "team": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Rustic Soft Ball",
+      "location": "Port Grady, IL",
+      "location_lat": "49.8929",
+      "location_lon": "25.6003",
+      "cost": 363006,
+      "description": "Minus architecto eius dolore dolores. Qui aut ut placeat. Dolor fugiat atque dolor aperiam ratione illum consequatur.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [
+        1
+      ],
+      "software": [],
+      "technique": [
+        2
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 59,
+      "name": "Gorgeous Wooden Cheese",
+      "location": "Hoppebury, AL",
+      "location_lat": "89.7974",
+      "location_lon": "-97.4597",
+      "cost": 142714,
+      "description": "Sed in quibusdam inventore aliquam sint soluta. Voluptates a rem neque animi. Alias tempore porro quae voluptate voluptatem. Voluptatem modi quam ut ipsam est. Et aut laudantium autem veniam ut et fuga accusantium vel.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 5,
+      "status": "under_development",
+      "finish": [
+        2
+      ],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [
+        3,
+        1
+      ],
+      "hardware": [
+        1
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Handmade Rubber Shoes",
+      "location": "Reneebury, NY",
+      "location_lat": "74.1835",
+      "location_lon": "-137.3826",
+      "cost": 240606,
+      "description": "Eaque repellat in sint sunt voluptatem culpa. Nemo recusandae id quasi id. Et velit id aut totam quasi aperiam. Vero aut molestias quisquam nihil voluptatem.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [
+        3,
+        3
+      ],
+      "machine": [
+        1,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Awesome Fresh Gloves",
+      "location": "Kohlershire, OH",
+      "location_lat": "-16.8488",
+      "location_lon": "-128.2220",
+      "cost": 30092,
+      "description": "Laudantium inventore dicta nostrum ea nam asperiores ipsam. Dolorem veritatis velit maxime cupiditate aut sit numquam qui. Itaque eius a. Sit praesentium consequatur libero facilis et. Reprehenderit rerum labore voluptate.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 6,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [
+        1,
+        3
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Licensed Wooden Pizza",
+      "location": "Port Princemouth, NH",
+      "location_lat": "-15.8239",
+      "location_lon": "94.9397",
+      "cost": 135604,
+      "description": "Voluptatem sint consequatur aspernatur magni. Aspernatur et quibusdam et ut molestias fuga temporibus in. Aut consequuntur error. In aperiam nam voluptas quos rerum perferendis omnis delectus numquam. In velit nobis illum voluptas doloremque. Eos et reiciendis possimus sed quae architecto ea impedit similique.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 63,
+      "name": "Generic Plastic Towels",
+      "location": "Kenside, MT",
+      "location_lat": "87.9499",
+      "location_lon": "162.8953",
+      "cost": 418445,
+      "description": "Rem repudiandae ab dolore ad et quo est omnis consequatur. Explicabo deleniti et aut ex et distinctio sapiente voluptatem fuga. Et saepe consequatur a tempora dolor voluptatem et quidem sit. Iste aut doloribus accusamus voluptate. Omnis voluptatibus ipsa qui et numquam est qui.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        1,
+        4
+      ],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [
+        2,
+        1
+      ],
+      "team": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Intelligent Steel Bike",
+      "location": "North Laurelview, MS",
+      "location_lat": "43.8284",
+      "location_lon": "169.8675",
+      "cost": 353584,
+      "description": "Id eaque totam nihil. Quo sit est quae odit dicta. Saepe vel eos vel sed recusandae architecto fugiat temporibus. Cumque ad impedit est blanditiis ut officiis sunt. Ullam quam eos modi consectetur cupiditate optio illum est.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 6,
+      "status": "under_development",
+      "finish": [
+        2,
+        3
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 65,
+      "name": "Generic Metal Mouse",
+      "location": "Lake Isabellburgh, KY",
+      "location_lat": "-2.7506",
+      "location_lon": "7.2746",
+      "cost": 220138,
+      "description": "Illum facere deleniti qui mollitia nihil sapiente dolorum. Minima quo sed quia quisquam sed est aspernatur et nemo. Maxime fugiat et qui iste labore soluta quo enim.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 3,
+      "status": "under_development",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [
+        2,
+        1
+      ],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": [
+        5,
+        2
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Tasty Concrete Hat",
+      "location": "West Destanyfort, UT",
+      "location_lat": "-35.0658",
+      "location_lon": "-45.1230",
+      "cost": 465857,
+      "description": "Ipsam eos quisquam. Officiis suscipit eaque. Dolores rerum quibusdam rerum corrupti saepe.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 4,
+      "status": "under_development",
+      "finish": [
+        2
+      ],
+      "software": [
+        2,
+        2
+      ],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [],
+      "team": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Handmade Rubber Shirt",
+      "location": "Port Maximilian, RI",
+      "location_lat": "-41.1583",
+      "location_lon": "-152.4125",
+      "cost": 62724,
+      "description": "Quam et sed beatae et. Blanditiis aut voluptas et molestias eius ut. Labore itaque aut nemo quam. Ex sunt est veniam.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        1,
+        2
+      ],
+      "team": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Handcrafted Rubber Bacon",
+      "location": "New Elenora, RI",
+      "location_lat": "23.1219",
+      "location_lon": "-59.6684",
+      "cost": 59668,
+      "description": "Incidunt voluptas voluptas fuga illo voluptatibus reiciendis hic. Animi maxime aut maiores eligendi quis eaque deleniti. Vel unde eveniet aut in repudiandae ut commodi quis. Aut consequatur reiciendis quaerat qui et sequi molestias cupiditate. Maxime asperiores rerum iure voluptatem. Autem voluptate porro magnam est similique neque.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 69,
+      "name": "Ergonomic Cotton Table",
+      "location": "New Eldridgeburgh, AR",
+      "location_lat": "-34.2051",
+      "location_lon": "-35.0084",
+      "cost": 34753,
+      "description": "Error aut est distinctio necessitatibus ex. Omnis cumque earum. Esse aliquam vel eos molestiae aut error voluptatum vitae. Asperiores omnis quia repudiandae quidem dignissimos. Qui soluta sunt voluptates cupiditate.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [
+        2,
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [
+        1,
+        3
+      ],
+      "hardware": [
+        3,
+        2
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Intelligent Soft Chips",
+      "location": "Pagacfurt, NC",
+      "location_lat": "-1.3933",
+      "location_lon": "84.8017",
+      "cost": 346710,
+      "description": "Iusto soluta delectus error quam praesentium at. Assumenda est consequatur. Rerum corporis qui quaerat architecto. Veritatis eius minus totam modi ut vero nobis. Odit consequatur consequatur sapiente repellendus rem.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [
+        1,
+        2
+      ],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 71,
+      "name": "Ergonomic Rubber Mouse",
+      "location": "New Daija, AL",
+      "location_lat": "-72.9702",
+      "location_lon": "-56.3970",
+      "cost": 414550,
+      "description": "Autem et praesentium quas et voluptas non eius qui. Eos similique nulla. Eveniet fugit dolorem.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 4,
+      "status": "in_progress",
+      "finish": [
+        3,
+        2
+      ],
+      "software": [],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Intelligent Metal Keyboard",
+      "location": "Shanelfurt, MT",
+      "location_lat": "-17.0745",
+      "location_lon": "-94.8519",
+      "cost": 487053,
+      "description": "Veniam vel ut amet accusantium eius quos. Facilis quisquam consequatur qui expedita. Non rerum enim nihil. Perferendis quasi cum rerum. Sit est magni iusto voluptas veniam odio quos illo. Soluta et eaque a iusto nostrum recusandae.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [
+        3,
+        4
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Ergonomic Soft Bacon",
+      "location": "East Clementinemouth, SD",
+      "location_lat": "-13.2958",
+      "location_lon": "114.1439",
+      "cost": 451050,
+      "description": "Earum voluptas ad odit. Qui vel deserunt eligendi dolor. Natus delectus hic modi soluta ut sapiente voluptas.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 3,
+      "status": "under_development",
+      "finish": [
+        2,
+        3
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Ergonomic Granite Computer",
+      "location": "Lake Marcelton, NJ",
+      "location_lat": "-9.0653",
+      "location_lon": "73.1825",
+      "cost": 316799,
+      "description": "Itaque repellendus aut eius fugit maiores. Aut autem sequi quam blanditiis. Molestiae numquam quisquam enim eligendi est itaque. Sint velit aspernatur.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 9,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        3,
+        3
+      ],
+      "technique": [],
+      "machine": [
+        2
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 75,
+      "name": "Small Steel Bacon",
+      "location": "Gersonside, NC",
+      "location_lat": "45.5332",
+      "location_lon": "-144.7917",
+      "cost": 167100,
+      "description": "Facere dolor rerum rerum et. Deserunt velit earum fugiat animi amet illum numquam aspernatur. Sit non corporis illum. Veniam deleniti perferendis at est laudantium.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 3,
+      "status": "completed",
+      "finish": [
+        4,
+        1
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Tasty Soft Salad",
+      "location": "North Matt, NV",
+      "location_lat": "5.7690",
+      "location_lon": "-110.5854",
+      "cost": 481515,
+      "description": "Pariatur maiores tempora perferendis occaecati ut. Rerum odio eaque et sit. Quo sit rerum non pariatur.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 6,
+      "status": "under_development",
+      "finish": [
+        1
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Small Concrete Keyboard",
+      "location": "Timmyshire, AZ",
+      "location_lat": "52.0595",
+      "location_lon": "-148.0145",
+      "cost": 192941,
+      "description": "Quam ratione qui nobis similique. Voluptates molestiae provident totam porro ut maxime. Suscipit vitae et illum labore ipsum doloribus sequi. Voluptas necessitatibus cumque. Soluta eaque aut sequi omnis dolorem et et voluptas.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        4,
+        2
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        2,
+        1
+      ],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Generic Steel Chips",
+      "location": "Gibsonville, AZ",
+      "location_lat": "-45.8586",
+      "location_lon": "-16.0396",
+      "cost": 85162,
+      "description": "Molestiae perspiciatis qui quos minus autem totam aperiam sint. Eius occaecati ipsum sed ut. Error rerum non non odit distinctio unde iusto. Sed ducimus blanditiis. Explicabo vel excepturi amet a voluptatem maxime debitis blanditiis quo. Maiores modi labore exercitationem iste.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 1,
+      "status": "under_development",
+      "finish": [],
+      "software": [
+        2
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 79,
+      "name": "Licensed Steel Mouse",
+      "location": "Lake Trevor, MI",
+      "location_lat": "-12.5571",
+      "location_lon": "-77.6919",
+      "cost": 114906,
+      "description": "Qui est laborum illum maiores deserunt. Ab consequuntur fugiat reprehenderit facere aliquid. Et enim sed aut maxime.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 9,
+      "status": "completed",
+      "finish": [
+        3,
+        2
+      ],
+      "software": [
+        4,
+        2
+      ],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        1,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 80,
+      "name": "Generic Concrete Bacon",
+      "location": "New Santachester, AL",
+      "location_lat": "84.4237",
+      "location_lon": "38.8070",
+      "cost": 160057,
+      "description": "Ducimus voluptatem non qui aut fuga autem quaerat impedit. Perspiciatis ad atque eum excepturi maxime consequatur dolore. Eum sunt amet est architecto aut.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        2,
+        3
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3,
+        2
+      ],
+      "team": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Tasty Fresh Towels",
+      "location": "West Everardomouth, MT",
+      "location_lat": "-23.8929",
+      "location_lon": "139.2945",
+      "cost": 321819,
+      "description": "Magnam voluptatem magni mollitia. Et est explicabo eum et voluptas unde autem. Sit velit unde at quia eveniet blanditiis et. Cumque iusto nisi rerum exercitationem porro labore doloremque repellat molestiae.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [
+        2
+      ],
+      "software": [
+        4,
+        3
+      ],
+      "technique": [],
+      "machine": [
+        2,
+        1
+      ],
+      "hardware": [
+        1,
+        2
+      ],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Fantastic Granite Chicken",
+      "location": "Mohrberg, AR",
+      "location_lat": "70.2661",
+      "location_lon": "163.9480",
+      "cost": 169942,
+      "description": "Harum suscipit aut. Facilis doloribus fugiat qui. Dolorum facilis fugiat. Cupiditate velit consequuntur molestiae et cum placeat alias. Voluptas sint vitae et distinctio mollitia aspernatur voluptatem.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 4,
+      "status": "under_development",
+      "finish": [
+        2,
+        4
+      ],
+      "software": [],
+      "technique": [
+        2
+      ],
+      "machine": [
+        1,
+        2
+      ],
+      "hardware": [
+        2,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 83,
+      "name": "Unbranded Wooden Towels",
+      "location": "West Nayeliton, CA",
+      "location_lat": "-26.3845",
+      "location_lon": "50.9299",
+      "cost": 118795,
+      "description": "Quaerat atque corrupti consequuntur autem ipsam. Molestiae voluptatem animi reprehenderit iusto soluta. Minus provident aut.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 2,
+      "status": "under_development",
+      "finish": [
+        4,
+        3
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 84,
+      "name": "Awesome Granite Chips",
+      "location": "Margarettastad, IL",
+      "location_lat": "65.5731",
+      "location_lon": "-172.6857",
+      "cost": 390382,
+      "description": "Ad aspernatur voluptatum illo delectus modi odio aliquam. Tempora voluptatem distinctio minus aut architecto neque. Id accusamus laudantium. Architecto distinctio harum nam nihil tenetur soluta ea nam.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 4,
+      "status": "under_development",
+      "finish": [
+        4,
+        3
+      ],
+      "software": [
+        4,
+        3
+      ],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Unbranded Granite Bacon",
+      "location": "Calistaberg, NC",
+      "location_lat": "-48.4262",
+      "location_lon": "-87.2007",
+      "cost": 271540,
+      "description": "Ea culpa sint voluptatem nostrum reiciendis qui minus aperiam. Rem voluptas accusantium voluptatem pariatur nihil eligendi veniam et. Nostrum eos doloremque id corrupti laboriosam. Adipisci qui ipsam pariatur molestiae dolorem. Iusto excepturi dolores nemo eum sed aut velit qui officia.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [
+        3,
+        4
+      ],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [],
+      "team": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": 86,
+      "name": "Handmade Frozen Bike",
+      "location": "Ferminland, IL",
+      "location_lat": "-15.9102",
+      "location_lon": "4.4493",
+      "cost": 323046,
+      "description": "Rerum quia et amet possimus commodi dolor. Est vitae quia recusandae aperiam sed est vel quia odio. Dignissimos veniam consequatur itaque a ratione nesciunt.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [
+        1,
+        1
+      ],
+      "software": [
+        1
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 87,
+      "name": "Practical Plastic Shoes",
+      "location": "New Alenafort, OH",
+      "location_lat": "-29.0753",
+      "location_lon": "101.7145",
+      "cost": 279619,
+      "description": "Quos sint eius deleniti iure est. Quas ut odio enim possimus animi mollitia officia veniam iste. Cupiditate qui et aliquid. Laudantium quam sunt voluptate omnis tenetur.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        3
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 88,
+      "name": "Unbranded Frozen Table",
+      "location": "Lake Pinkton, MN",
+      "location_lat": "-10.8057",
+      "location_lon": "130.9574",
+      "cost": 201428,
+      "description": "Beatae sed cupiditate autem sint sint maiores eos. Delectus accusamus facilis velit consequatur ut. Aperiam quam esse voluptatem odit est eos.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 1,
+      "status": "under_development",
+      "finish": [
+        1,
+        4
+      ],
+      "software": [
+        2
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3,
+        2
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Licensed Steel Cheese",
+      "location": "North Whitneyville, AL",
+      "location_lat": "-20.1773",
+      "location_lon": "-78.8266",
+      "cost": 66177,
+      "description": "Facilis enim aut consequuntur quaerat. Esse sed beatae. Asperiores incidunt blanditiis quos odit labore. Neque eligendi quia eius. Fuga unde porro velit vero nulla porro dolores esse laborum. Magnam commodi molestiae saepe eum eum aut doloribus.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        3,
+        4
+      ],
+      "software": [
+        2,
+        3
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 90,
+      "name": "Rustic Rubber Cheese",
+      "location": "New Evelineville, ND",
+      "location_lat": "18.2819",
+      "location_lon": "-13.1147",
+      "cost": 32071,
+      "description": "Maxime molestiae sit maxime enim neque impedit veniam qui. Sit odit sed voluptas facilis eos totam pariatur id. Quibusdam qui magnam.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 5,
+      "status": "under_development",
+      "finish": [
+        3,
+        3
+      ],
+      "software": [
+        2,
+        3
+      ],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [
+        1,
+        3
+      ],
+      "hardware": [
+        1,
+        1
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Ergonomic Granite Soap",
+      "location": "Marionfurt, DE",
+      "location_lat": "59.9255",
+      "location_lon": "114.7694",
+      "cost": 492270,
+      "description": "Ex occaecati placeat quis vel iusto. Voluptatibus non eligendi. Aut ipsum ut aut ratione dolorum nesciunt autem amet cum. Sit magni voluptatem provident omnis nobis. Soluta excepturi autem illum.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Gorgeous Metal Computer",
+      "location": "Elainaberg, NC",
+      "location_lat": "-69.5142",
+      "location_lon": "-163.6048",
+      "cost": 260117,
+      "description": "Accusamus doloribus voluptatem numquam. Est sit voluptatem quia enim quo velit quia. Enim nisi et ut repudiandae ut architecto dolores nihil. Est odio perspiciatis illum enim sed sed.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [
+        1,
+        2
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Practical Granite Bike",
+      "location": "West Alexandraport, AR",
+      "location_lat": "-62.4412",
+      "location_lon": "160.9275",
+      "cost": 493925,
+      "description": "Magnam officia molestias alias et odio voluptate. Possimus voluptas eveniet repudiandae quaerat possimus consequatur adipisci veritatis. Laborum suscipit numquam id soluta numquam cumque ut aliquid est. Recusandae ad ab ipsa. Nihil nobis id nemo. Molestias enim vitae et eum incidunt omnis.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 7,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 94,
+      "name": "Gorgeous Soft Pants",
+      "location": "Port Toytown, VT",
+      "location_lat": "-89.7205",
+      "location_lon": "118.2888",
+      "cost": 402631,
+      "description": "Nam illum et quas corporis doloribus non ullam. Magni id et amet corrupti impedit consectetur aliquid recusandae. Beatae animi eveniet beatae consequatur. Numquam sit esse et.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [
+        3
+      ],
+      "software": [],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 95,
+      "name": "Small Granite Soap",
+      "location": "Carletonview, KS",
+      "location_lat": "61.3340",
+      "location_lon": "167.3955",
+      "cost": 475028,
+      "description": "Praesentium ipsa doloremque ut voluptatem est est. Autem nisi sunt facere at iure libero dolor. Et qui ipsum qui magni eos molestiae voluptas doloremque autem.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 4,
+      "status": "under_development",
+      "finish": [
+        1,
+        2
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        2,
+        1
+      ],
+      "team": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Handcrafted Cotton Pizza",
+      "location": "Wisozkmouth, NY",
+      "location_lat": "4.7476",
+      "location_lon": "-127.4350",
+      "cost": 444188,
+      "description": "Explicabo porro cum at harum doloremque accusamus. Hic autem reiciendis placeat et voluptatem possimus. Vitae beatae incidunt nisi animi dicta laborum iusto sint. Ipsa aut molestias ipsam eum eaque vitae voluptas suscipit quasi. Quia dolore voluptatibus sed tempore ipsam.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [],
+      "team": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Tasty Frozen Car",
+      "location": "West Rodrigo, NC",
+      "location_lat": "-17.9005",
+      "location_lon": "-99.2732",
+      "cost": 89599,
+      "description": "Rerum soluta occaecati qui delectus maiores omnis ipsa officia ducimus. In amet odit rerum expedita. Repudiandae sapiente eum quibusdam eligendi sint voluptas corrupti voluptatibus eum. Laudantium magnam incidunt sed beatae velit. Quisquam dolores aut praesentium perferendis occaecati.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 98,
+      "name": "Small Concrete Mouse",
+      "location": "Lake Sunny, MS",
+      "location_lat": "-26.6580",
+      "location_lon": "-167.9321",
+      "cost": 417491,
+      "description": "Nam non nobis voluptatem. Saepe tempore tenetur cum minus adipisci quia ea possimus. Aliquam et fuga est id debitis. Est mollitia voluptatum est culpa. Adipisci dolor autem esse iste ipsam esse est quisquam.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [
+        2,
+        4
+      ],
+      "software": [
+        3,
+        1
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 99,
+      "name": "Practical Metal Bacon",
+      "location": "West Dixiemouth, NY",
+      "location_lat": "11.9243",
+      "location_lon": "-89.7178",
+      "cost": 347898,
+      "description": "Vel hic sit nihil est tempora. Quisquam optio voluptates distinctio veritatis delectus dolor delectus. Quis animi et quae inventore. Illum ipsa qui. Quae et similique iste optio qui consequatur quod qui recusandae. Dolorem reiciendis quisquam ut assumenda sunt tempore dicta laboriosam ipsum.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 6,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Intelligent Wooden Table",
+      "location": "North Modesto, IA",
+      "location_lat": "-19.4538",
+      "location_lon": "70.6995",
+      "cost": 258015,
+      "description": "Est tempora consequuntur. Voluptatem hic esse nisi excepturi dolore. Dolorem beatae magni corporis. Ducimus rerum ea sed tenetur consequatur ut impedit ea.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 7,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 101,
+      "name": "Handcrafted Fresh Shoes",
+      "location": "South Uriah, UT",
+      "location_lat": "-17.5478",
+      "location_lon": "146.2344",
+      "cost": 45911,
+      "description": "Aut aut similique enim earum distinctio aperiam consequatur nisi. Quas accusantium nihil accusantium repellendus assumenda nihil. Asperiores aspernatur laboriosam atque quisquam odio sapiente quam incidunt quis.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        1,
+        1
+      ],
+      "technique": [
+        3,
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 102,
+      "name": "Gorgeous Frozen Chair",
+      "location": "North Eva, WI",
+      "location_lat": "76.1256",
+      "location_lon": "139.6321",
+      "cost": 369201,
+      "description": "Et ut ipsam fugiat beatae minima veritatis. Dolorem ut tempore iusto. Vero perferendis reprehenderit. Qui labore mollitia libero soluta cupiditate officiis dolorum. Dolore et quasi tempora totam reiciendis magnam praesentium commodi.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 3,
+      "status": "under_development",
+      "finish": [
+        4
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Practical Fresh Chips",
+      "location": "Sabinafurt, MI",
+      "location_lat": "1.8526",
+      "location_lon": "-143.9463",
+      "cost": 90656,
+      "description": "Aut eos minus magni deserunt rerum incidunt est. Natus commodi temporibus ut itaque itaque vero omnis illo accusamus. Reprehenderit voluptatem in qui impedit repellat delectus.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        2
+      ],
+      "software": [
+        4,
+        3
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 104,
+      "name": "Ergonomic Frozen Chips",
+      "location": "Wintheisershire, NY",
+      "location_lat": "-21.5146",
+      "location_lon": "-105.8420",
+      "cost": 426841,
+      "description": "Ea labore et perferendis corporis aut. Ex quisquam culpa omnis nihil quos dolorum aut ea cumque. Nihil sunt in eum deserunt nihil aliquid nemo quam cupiditate.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3,
+        1
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 105,
+      "name": "Awesome Soft Bike",
+      "location": "Newtonmouth, MD",
+      "location_lat": "53.1840",
+      "location_lon": "-133.3060",
+      "cost": 331607,
+      "description": "Minus ea molestias et officiis accusamus quos. Dolores assumenda quidem nobis consequuntur voluptatum dignissimos fugiat et. Modi amet distinctio. Commodi sapiente tempore quibusdam nulla est dolores omnis. Accusamus sint aut voluptas laboriosam velit commodi dolor cumque.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 7,
+      "status": "completed",
+      "finish": [
+        2
+      ],
+      "software": [],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 106,
+      "name": "Small Granite Mouse",
+      "location": "Shainahaven, NJ",
+      "location_lat": "71.6015",
+      "location_lon": "-15.3655",
+      "cost": 153215,
+      "description": "Voluptatum est eum at. Voluptatem adipisci consequatur et adipisci. In maiores odit modi id et laboriosam. Dolorum eius et a velit. Qui libero et necessitatibus nisi cupiditate et aut labore. Quo accusantium iusto commodi et molestiae.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        3
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [
+        3,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        4,
+        3
+      ]
+    },
+    {
+      "id": 107,
+      "name": "Unbranded Wooden Towels",
+      "location": "Lake Ubaldo, CT",
+      "location_lat": "-69.0896",
+      "location_lon": "73.2335",
+      "cost": 260452,
+      "description": "Dolor ut nesciunt quis magni vero. Consectetur qui quos vel sunt dolorum mollitia nihil. Unde eos quos necessitatibus hic aut architecto architecto architecto minus. Omnis minus molestiae possimus ut et omnis dolor. Qui accusamus voluptatem aut natus quisquam eius officiis.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        1
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 108,
+      "name": "Tasty Fresh Cheese",
+      "location": "Lake Zackary, PA",
+      "location_lat": "63.0987",
+      "location_lon": "-96.7625",
+      "cost": 497759,
+      "description": "Aspernatur cum ipsum magnam enim. Dolore id cupiditate doloremque pariatur autem rem non at quo. Corporis odio repellendus est officia ut occaecati fugit. Et recusandae itaque aut autem provident veniam consequatur. Quasi voluptatem dolorem asperiores pariatur nemo voluptas odio eveniet rerum.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 2,
+      "status": "in_progress",
+      "finish": [
+        1,
+        1
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 109,
+      "name": "Fantastic Soft Computer",
+      "location": "South Osvaldoberg, CO",
+      "location_lat": "-19.9082",
+      "location_lon": "-106.6511",
+      "cost": 104803,
+      "description": "Praesentium a sed nulla quia dolore enim cum sunt. Consequuntur soluta voluptate ex hic illo. Voluptatem deserunt autem dolores qui deserunt nam consequatur beatae labore. Dicta repudiandae sapiente rerum dicta. Ullam sed porro cum illum.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": 110,
+      "name": "Ergonomic Fresh Chips",
+      "location": "Tamiabury, KS",
+      "location_lat": "69.2958",
+      "location_lon": "-12.5489",
+      "cost": 377129,
+      "description": "Distinctio repellendus adipisci. Rerum est cumque sit consequatur est debitis ut nemo. Vel repellat omnis voluptates unde impedit ut a enim eaque. Nostrum fugit eum hic et dolores ut enim. Unde soluta est reprehenderit hic omnis.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 1,
+      "status": "under_development",
+      "finish": [
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 111,
+      "name": "Generic Metal Fish",
+      "location": "West Nakia, WY",
+      "location_lat": "-58.8994",
+      "location_lon": "63.6464",
+      "cost": 468884,
+      "description": "Aut quia voluptatem in. Saepe explicabo ullam enim laudantium porro. Non quis reiciendis labore esse eius quasi aut. Alias eum ut consectetur at rem quia necessitatibus eos. Soluta in qui porro tempora. Aliquam impedit nihil.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        2,
+        3
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 112,
+      "name": "Incredible Wooden Chair",
+      "location": "North Brianafurt, PA",
+      "location_lat": "-52.2081",
+      "location_lon": "2.0493",
+      "cost": 470425,
+      "description": "Aut voluptatem quisquam ad ut in qui dolor dolor voluptatem. Doloribus consequatur et est repudiandae iste dolor ut et aliquid. Mollitia vel consequatur perferendis eveniet sapiente. Voluptatem saepe blanditiis est consequatur et nam sint. Beatae asperiores veniam in corrupti accusamus. Ipsa dolores corporis placeat.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [
+        4,
+        1
+      ],
+      "software": [
+        1
+      ],
+      "technique": [],
+      "machine": [
+        3,
+        2
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 113,
+      "name": "Awesome Cotton Car",
+      "location": "North Breannabury, MA",
+      "location_lat": "-76.4838",
+      "location_lon": "-123.4618",
+      "cost": 461389,
+      "description": "Exercitationem perferendis autem sit doloremque voluptatem explicabo beatae totam et. Animi et rerum quisquam quia quia blanditiis. Dolores qui earum. Quod natus unde ex et et qui a. Iusto qui adipisci ipsam ratione ratione.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 114,
+      "name": "Ergonomic Frozen Fish",
+      "location": "Bodefort, LA",
+      "location_lat": "-82.8799",
+      "location_lon": "-162.5268",
+      "cost": 292797,
+      "description": "Repudiandae doloremque ad libero doloremque ut mollitia eveniet aperiam veritatis. Veritatis quia ut suscipit hic mollitia unde qui. Optio officia ducimus quae labore optio quos nemo est. Cupiditate ex vero aut adipisci nam eveniet est. Qui distinctio perspiciatis quia vero veritatis non voluptatibus. Natus expedita ratione.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [
+        1
+      ],
+      "software": [
+        2,
+        1
+      ],
+      "technique": [],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 115,
+      "name": "Fantastic Rubber Sausages",
+      "location": "New Linnea, VA",
+      "location_lat": "45.8837",
+      "location_lon": "-28.5077",
+      "cost": 126005,
+      "description": "Sit vel optio quis rerum enim repellendus quaerat. Dolor consequatur modi culpa. Maxime accusantium laboriosam minus. Velit ut quidem aut dolorum excepturi fuga nesciunt non in. Laudantium cupiditate ea et ea quas.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        4,
+        4
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        2,
+        2
+      ],
+      "machine": [],
+      "hardware": [
+        1,
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 116,
+      "name": "Sleek Cotton Bacon",
+      "location": "Gloriamouth, WV",
+      "location_lat": "-38.9456",
+      "location_lon": "173.9462",
+      "cost": 115211,
+      "description": "Tenetur doloremque aut ea in. Nemo dolores labore est rerum vel neque est optio omnis. Deserunt eum perferendis similique omnis velit voluptatibus accusantium iste.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [
+        2
+      ],
+      "software": [],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [
+        2,
+        1
+      ],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Gorgeous Wooden Soap",
+      "location": "Odessastad, DE",
+      "location_lat": "18.1634",
+      "location_lon": "-61.7618",
+      "cost": 249239,
+      "description": "Eos dicta consequatur explicabo tempora illo ut beatae qui accusantium. Reiciendis sint temporibus. Aut quod commodi.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        2
+      ],
+      "software": [
+        2,
+        2
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 118,
+      "name": "Ergonomic Granite Towels",
+      "location": "West Bettie, MN",
+      "location_lat": "-14.9289",
+      "location_lon": "179.9482",
+      "cost": 144249,
+      "description": "Voluptatum debitis magnam. Autem consequuntur ut. Ut est quos aut vel et itaque culpa nihil officiis. Qui velit illo blanditiis provident dolorum aut consequatur.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [
+        3
+      ],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        1,
+        2
+      ],
+      "team": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Incredible Concrete Hat",
+      "location": "Port Bria, VA",
+      "location_lat": "-71.0076",
+      "location_lon": "-79.0669",
+      "cost": 404594,
+      "description": "Alias hic unde perspiciatis in non. Occaecati ut qui recusandae debitis voluptas et quos. Aut ut deserunt sit omnis blanditiis.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 4,
+      "status": "completed",
+      "finish": [
+        4,
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 120,
+      "name": "Awesome Cotton Computer",
+      "location": "Roderickfurt, MI",
+      "location_lat": "25.1741",
+      "location_lon": "-151.1439",
+      "cost": 475384,
+      "description": "Hic molestiae et rem impedit qui quia. Sint in quibusdam facere consequatur odit ducimus ut cum molestiae. Et ducimus ipsam aut. Distinctio ratione ratione quo accusantium in accusamus quod id deserunt. Inventore quibusdam dolores sequi temporibus dolor sed. Amet vitae ducimus iusto placeat aut commodi sapiente.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [
+        2,
+        1
+      ],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Sleek Frozen Chair",
+      "location": "Lake Eleanore, NE",
+      "location_lat": "-82.9020",
+      "location_lon": "-80.7003",
+      "cost": 469740,
+      "description": "Dolor aspernatur voluptatem. At ut porro voluptatem molestiae perferendis iure ipsum quibusdam accusantium. Molestias sed at quasi. Sit consequatur dolorem facere iure. Quia consequuntur possimus minima sunt odit.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 9,
+      "status": "completed",
+      "finish": [
+        2
+      ],
+      "software": [
+        2
+      ],
+      "technique": [],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Awesome Soft Mouse",
+      "location": "Ewaldburgh, ND",
+      "location_lat": "-15.8682",
+      "location_lon": "-31.5929",
+      "cost": 461423,
+      "description": "Nobis ut blanditiis voluptatem molestiae ipsa tenetur accusamus libero non. Qui animi ipsam ut temporibus quos consectetur voluptas. Consectetur omnis hic. Quo atque et sint et sed atque minima.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 1,
+      "status": "under_development",
+      "finish": [
+        2,
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Practical Plastic Mouse",
+      "location": "Hazlefort, NM",
+      "location_lat": "20.4375",
+      "location_lon": "94.9243",
+      "cost": 201690,
+      "description": "Nostrum officia velit explicabo aut quas et. Et magni velit. Cum iste in ducimus cupiditate non hic. Atque nulla provident corporis voluptatem esse eos quisquam sed. Aliquid et quidem voluptas sint.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 4,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        3,
+        3
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Ergonomic Frozen Table",
+      "location": "Lake Wavaton, MI",
+      "location_lat": "21.2431",
+      "location_lon": "-1.6896",
+      "cost": 321010,
+      "description": "Nulla laborum repudiandae odio dolorum repellat consectetur explicabo voluptatem doloribus. Reprehenderit voluptatibus autem reiciendis ut id magni minus. Qui minus aut et temporibus inventore. Sint libero quia sit ut quae enim voluptatem. Exercitationem esse recusandae culpa debitis repudiandae.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        2,
+        2
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        3,
+        1
+      ],
+      "hardware": [
+        3,
+        2
+      ],
+      "team": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Awesome Rubber Ball",
+      "location": "Chloeport, CO",
+      "location_lat": "-23.7468",
+      "location_lon": "-153.2822",
+      "cost": 185461,
+      "description": "Possimus quia tenetur sed et ratione fugit blanditiis. Id consequatur distinctio maiores assumenda rerum voluptates porro. Eaque omnis iste earum non sunt.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 2,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 126,
+      "name": "Practical Plastic Bike",
+      "location": "North Josianebury, MD",
+      "location_lat": "-62.5294",
+      "location_lon": "-50.3167",
+      "cost": 482145,
+      "description": "Facilis praesentium ad aperiam sed illum necessitatibus animi amet blanditiis. Iste libero labore sit est sed deserunt repellendus consequatur. Culpa repellendus pariatur laboriosam dolores odio odit.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        3,
+        1
+      ],
+      "technique": [],
+      "machine": [
+        3,
+        1
+      ],
+      "hardware": [
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 127,
+      "name": "Generic Frozen Chips",
+      "location": "Adellatown, MT",
+      "location_lat": "23.1869",
+      "location_lon": "-15.9470",
+      "cost": 102816,
+      "description": "Velit ipsum est. Enim itaque excepturi corporis. Dolore est explicabo dolore quidem ullam in. Voluptate dolor numquam sapiente non nihil saepe placeat corporis. Rem aspernatur rerum atque ipsum magnam sint ut.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        2,
+        3
+      ],
+      "team": [
+        5,
+        1
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Refined Wooden Table",
+      "location": "Zboncakfurt, NM",
+      "location_lat": "-17.5121",
+      "location_lon": "-49.6315",
+      "cost": 164821,
+      "description": "Iste pariatur pariatur. Aperiam neque ut debitis quaerat deserunt quis reiciendis sed provident. Molestiae minima adipisci sequi ea. Sequi est tenetur illum dolorem rerum et qui delectus. Labore laboriosam sequi exercitationem.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [
+        1,
+        4
+      ],
+      "software": [],
+      "technique": [
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 129,
+      "name": "Handcrafted Wooden Towels",
+      "location": "South Kaylie, WV",
+      "location_lat": "72.7846",
+      "location_lon": "-150.4385",
+      "cost": 170676,
+      "description": "Adipisci ipsa quo illo fugiat blanditiis quos omnis id dolores. Velit iure veniam asperiores tempore sit. Et voluptas totam ut tempore sequi vel quidem architecto ut. Consequatur atque nobis quas non adipisci eum. Quod vero rerum sunt doloribus quia. Voluptatem aliquid officiis.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 5,
+      "status": "under_development",
+      "finish": [
+        4
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Rustic Fresh Soap",
+      "location": "Kovacekville, AK",
+      "location_lat": "-5.6524",
+      "location_lon": "-50.2469",
+      "cost": 452949,
+      "description": "Et inventore ex et. Eligendi adipisci neque voluptatem dolores nihil rerum facilis est. Ea aut iusto omnis atque. Et rerum alias et fuga velit perferendis aut. Odit amet eum. Ipsa corrupti amet quia repellat.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 3,
+      "status": "completed",
+      "finish": [
+        3
+      ],
+      "software": [],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Fantastic Frozen Soap",
+      "location": "Lake Stephenburgh, KY",
+      "location_lat": "-68.9241",
+      "location_lon": "-54.2331",
+      "cost": 26139,
+      "description": "Ut similique voluptatem aut architecto molestiae iste autem est. Deserunt qui expedita facere sit aperiam aut ipsum dolorem. Illum voluptatibus neque occaecati quibusdam incidunt et accusantium. Veniam quia voluptatem aut ullam neque porro nostrum.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [
+        3
+      ],
+      "software": [
+        4
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 132,
+      "name": "Awesome Concrete Computer",
+      "location": "Ewaldburgh, AK",
+      "location_lat": "52.9995",
+      "location_lon": "20.0519",
+      "cost": 442753,
+      "description": "Et perspiciatis sed tempora repudiandae. Et omnis autem rem. Architecto molestiae excepturi sed. Minima quia pariatur et assumenda quod quidem ut. Minima facilis fugit veritatis maxime esse est repellendus.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 4,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [
+        2,
+        4
+      ],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [
+        1,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 133,
+      "name": "Generic Fresh Bike",
+      "location": "Roryland, OK",
+      "location_lat": "-18.5908",
+      "location_lon": "-164.1862",
+      "cost": 138296,
+      "description": "Animi dolores eligendi deleniti et. Accusamus rerum numquam qui. Corrupti numquam pariatur.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [
+        2,
+        4
+      ],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        3
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Ergonomic Frozen Cheese",
+      "location": "Marquardtberg, NV",
+      "location_lat": "78.8591",
+      "location_lon": "64.0807",
+      "cost": 154418,
+      "description": "Voluptas eveniet labore quo iure. Tempora laboriosam repellat. Earum ipsa corporis repellendus impedit.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        4
+      ],
+      "technique": [],
+      "machine": [
+        3,
+        1
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 135,
+      "name": "Awesome Rubber Pants",
+      "location": "Evanton, AZ",
+      "location_lat": "26.3045",
+      "location_lon": "-166.0181",
+      "cost": 48262,
+      "description": "Explicabo illum aliquid accusantium corporis consectetur ut. Commodi dignissimos temporibus dolorem doloribus sint veritatis. Dolorem odit autem expedita. Reprehenderit et deserunt sunt saepe. Eius ullam et at est quasi dolores odit. Quae nam voluptates tempora minima dolorum consectetur dolor et temporibus.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 2,
+      "status": "under_development",
+      "finish": [],
+      "software": [
+        2
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Sleek Wooden Tuna",
+      "location": "Zboncakville, KS",
+      "location_lat": "-65.6382",
+      "location_lon": "156.8572",
+      "cost": 211358,
+      "description": "Aspernatur qui maxime. Laboriosam eos nisi sapiente error voluptatem veniam. Rerum saepe officia. Eos aut dolore omnis possimus. Error et et quasi.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 7,
+      "status": "completed",
+      "finish": [
+        1
+      ],
+      "software": [
+        4,
+        3
+      ],
+      "technique": [],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 137,
+      "name": "Incredible Cotton Bacon",
+      "location": "Keelingville, MT",
+      "location_lat": "-81.1140",
+      "location_lon": "-46.0336",
+      "cost": 25909,
+      "description": "Cupiditate qui molestias impedit alias ex nisi. Dolorem rerum praesentium laudantium autem laudantium. Explicabo quia dolorem nobis et sit dolor expedita. Officiis optio ut expedita hic ex minus rerum.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [
+        3,
+        4
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [
+        2,
+        1
+      ],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 138,
+      "name": "Ergonomic Plastic Bike",
+      "location": "Lake Blancaview, PA",
+      "location_lat": "16.1612",
+      "location_lon": "-2.3326",
+      "cost": 142078,
+      "description": "Itaque dolorum voluptatum perspiciatis unde omnis. Saepe sed natus enim. Aut ut alias sit. Excepturi nihil accusantium. Blanditiis facere cum. Enim quo eos neque.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 1,
+      "status": "in_progress",
+      "finish": [
+        3
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        1
+      ],
+      "team": [
+        3,
+        1
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Intelligent Cotton Gloves",
+      "location": "Raufort, LA",
+      "location_lat": "12.0830",
+      "location_lon": "-1.6849",
+      "cost": 58989,
+      "description": "Omnis et ad eum inventore ipsum voluptas. Non animi in cum explicabo rerum. Tempore eum nisi ab corrupti.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        1
+      ],
+      "software": [],
+      "technique": [
+        1,
+        1
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 140,
+      "name": "Generic Fresh Car",
+      "location": "Benedictland, TN",
+      "location_lat": "68.9357",
+      "location_lon": "176.8624",
+      "cost": 30313,
+      "description": "Sed ut facere eum odit delectus occaecati dolorem. Doloribus debitis ut voluptate quisquam quo et. Reprehenderit magni ut consequatur minima. Et rerum occaecati vitae. Quia aut voluptatem.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        4,
+        4
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [
+        1,
+        1
+      ],
+      "hardware": [],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Gorgeous Concrete Ball",
+      "location": "West Frieda, UT",
+      "location_lat": "-16.4283",
+      "location_lon": "151.0789",
+      "cost": 487774,
+      "description": "Eius dolores voluptatibus sit officiis omnis et quis nihil. Ea suscipit qui officia. Cum sunt et laudantium rerum ipsum architecto.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        3,
+        3
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        2,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 142,
+      "name": "Sleek Soft Bike",
+      "location": "Botsfordburgh, NM",
+      "location_lat": "-54.9255",
+      "location_lon": "50.7485",
+      "cost": 261271,
+      "description": "Debitis laborum minus fugit aut corporis. Ratione iste debitis exercitationem. Quis vel quidem. Omnis qui omnis consequatur voluptas et id pariatur. Porro quis ab nam enim cum dolorum soluta iste nulla. Reprehenderit necessitatibus cumque dolorem.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        2,
+        3
+      ],
+      "software": [
+        3,
+        1
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 143,
+      "name": "Tasty Frozen Pizza",
+      "location": "North Ceceliashire, WY",
+      "location_lat": "-68.7193",
+      "location_lon": "-128.4939",
+      "cost": 225033,
+      "description": "Et ut nostrum rem culpa ducimus sed earum repudiandae deserunt. Magni enim doloribus. Ut vel possimus saepe maxime ut repellat qui ab.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 9,
+      "status": "under_development",
+      "finish": [],
+      "software": [
+        2
+      ],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        1,
+        2
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 144,
+      "name": "Refined Metal Car",
+      "location": "West Lilliana, WA",
+      "location_lat": "-51.1209",
+      "location_lon": "-61.0268",
+      "cost": 139891,
+      "description": "Alias sequi et. Vel minus ad ut eligendi. Doloribus exercitationem recusandae rem.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 7,
+      "status": "under_development",
+      "finish": [
+        1,
+        1
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 145,
+      "name": "Intelligent Plastic Chair",
+      "location": "New Sigridtown, GA",
+      "location_lat": "63.9420",
+      "location_lon": "-90.5229",
+      "cost": 475900,
+      "description": "Excepturi error sit dolore numquam at ut eum. Hic architecto eum similique rerum in eius qui et. Ullam nobis porro et. Ab voluptatibus numquam alias porro non sequi esse dicta.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 6,
+      "status": "under_development",
+      "finish": [
+        1,
+        2
+      ],
+      "software": [
+        1,
+        2
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 146,
+      "name": "Generic Wooden Chips",
+      "location": "Fredbury, OR",
+      "location_lat": "60.5810",
+      "location_lon": "146.2317",
+      "cost": 145877,
+      "description": "Unde odit rerum ipsum numquam nihil laboriosam. Quis distinctio ut eligendi. Dolorum ut sit consequatur qui sint aut. Assumenda autem vel. Dolor aut delectus et saepe totam.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        3
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 147,
+      "name": "Fantastic Concrete Towels",
+      "location": "Myrafort, TN",
+      "location_lat": "63.8860",
+      "location_lon": "144.6463",
+      "cost": 411534,
+      "description": "Et iste sequi quis harum aut sit sint ullam sapiente. Quo quisquam saepe quia voluptate in occaecati rerum tempora. Dolorem laborum quam dolorem totam voluptate error deserunt odio nulla. Pariatur aut provident ea saepe ullam fugit. Officia voluptatem sequi. Esse quo accusamus est neque ut soluta aspernatur vel.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        4,
+        1
+      ],
+      "software": [
+        1
+      ],
+      "technique": [],
+      "machine": [
+        2,
+        1
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 148,
+      "name": "Unbranded Fresh Fish",
+      "location": "Nelsfort, UT",
+      "location_lat": "18.7794",
+      "location_lon": "41.8166",
+      "cost": 156084,
+      "description": "Velit ipsam repellat similique sunt quo laudantium. Illo qui inventore. Tenetur est saepe quae suscipit qui. Id labore aut quia ut et aut.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 9,
+      "status": "completed",
+      "finish": [
+        4,
+        1
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 149,
+      "name": "Licensed Wooden Bacon",
+      "location": "North Barney, NV",
+      "location_lat": "-25.8529",
+      "location_lon": "142.6036",
+      "cost": 353720,
+      "description": "Dolorem rerum qui qui minus adipisci praesentium quis. Possimus voluptas ducimus libero velit dolor harum voluptatum. Et quasi optio laborum distinctio nemo et asperiores. Autem sint qui aut rerum. Quos omnis soluta. Quam repellat nobis eaque nemo.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 3,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        2,
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 150,
+      "name": "Intelligent Plastic Bike",
+      "location": "Eichmannmouth, ND",
+      "location_lat": "60.1200",
+      "location_lon": "90.6514",
+      "cost": 206333,
+      "description": "Ut blanditiis ducimus maxime unde fugiat. Sed fugiat totam maxime id sapiente magnam quos. Minima voluptatem nobis optio vel nihil architecto ea dolore id. Est veritatis amet ea sint et earum aperiam deserunt cupiditate. Facere et quis sint dolor voluptatem pariatur voluptate magni.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        3,
+        4
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 151,
+      "name": "Unbranded Fresh Salad",
+      "location": "North Lonnie, IL",
+      "location_lat": "32.7714",
+      "location_lon": "-79.2259",
+      "cost": 350955,
+      "description": "Veniam autem iusto inventore dignissimos nam qui velit suscipit. Ullam assumenda voluptatem non eum. Necessitatibus mollitia quae enim in qui velit libero sit mollitia. Sint veniam quas aliquam neque accusamus omnis ut. Fuga qui voluptates non autem explicabo. Doloremque consequatur aperiam fugit ipsa.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [
+        1
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 152,
+      "name": "Incredible Cotton Salad",
+      "location": "Mayertberg, CT",
+      "location_lat": "57.7114",
+      "location_lon": "-26.9935",
+      "cost": 105245,
+      "description": "Aliquid adipisci omnis. Quis voluptates in omnis est accusantium libero non. Nulla et minima voluptas. Dolores aut quibusdam voluptate et veniam recusandae rerum. Architecto necessitatibus omnis.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        1,
+        1
+      ],
+      "technique": [],
+      "machine": [
+        2,
+        1
+      ],
+      "hardware": [
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 153,
+      "name": "Handcrafted Soft Hat",
+      "location": "Hahnmouth, CO",
+      "location_lat": "56.5194",
+      "location_lon": "54.9968",
+      "cost": 123562,
+      "description": "Aspernatur temporibus sint molestiae qui enim. Velit earum itaque consequatur aspernatur. Accusamus ratione ab qui eos possimus commodi quisquam perspiciatis. Eligendi vel et corrupti ut.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [
+        2
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 154,
+      "name": "Handcrafted Metal Salad",
+      "location": "East Deonfort, HI",
+      "location_lat": "59.9673",
+      "location_lon": "106.6004",
+      "cost": 114623,
+      "description": "Et est facere facere rerum. Possimus exercitationem harum est impedit vel ipsam. Omnis mollitia incidunt consequatur nulla molestias sint aut.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 4,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [
+        2,
+        4
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [
+        1,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 155,
+      "name": "Sleek Rubber Shirt",
+      "location": "East Nakia, OK",
+      "location_lat": "83.0544",
+      "location_lon": "-28.0689",
+      "cost": 173074,
+      "description": "Architecto eligendi sed enim itaque aperiam nisi ea. Ut voluptas aliquid architecto ratione repellat eligendi beatae officia. Corrupti atque voluptatum fugiat enim praesentium impedit dignissimos.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [
+        3
+      ],
+      "software": [
+        4,
+        2
+      ],
+      "technique": [
+        2,
+        2
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        2,
+        3
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 156,
+      "name": "Generic Metal Pizza",
+      "location": "Vivianeland, NH",
+      "location_lat": "4.9206",
+      "location_lon": "-102.5772",
+      "cost": 236537,
+      "description": "Est sed aliquam impedit sunt alias magnam. Voluptatem velit qui impedit deleniti aperiam eius hic cupiditate repellat. Quos rerum omnis aliquid error. Inventore ea non. Qui expedita quia recusandae. Voluptas nihil itaque necessitatibus vero aperiam.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 7,
+      "status": "under_development",
+      "finish": [
+        1,
+        4
+      ],
+      "software": [
+        4
+      ],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [
+        1,
+        1
+      ],
+      "hardware": [
+        3,
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 157,
+      "name": "Refined Rubber Shirt",
+      "location": "New Abelburgh, NH",
+      "location_lat": "-52.9611",
+      "location_lon": "-90.2234",
+      "cost": 93743,
+      "description": "Autem reiciendis ullam consequatur qui. Deserunt hic mollitia id aut. Omnis distinctio voluptas. Voluptas eveniet quisquam in quis ut possimus enim et. Est sed ab aspernatur cumque perferendis.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 2,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        1
+      ],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        2
+      ],
+      "team": [
+        1
+      ]
+    },
+    {
+      "id": 158,
+      "name": "Gorgeous Rubber Chair",
+      "location": "North Joe, HI",
+      "location_lat": "-43.6349",
+      "location_lon": "-12.8195",
+      "cost": 450354,
+      "description": "Ratione voluptate voluptas facere dolorum laudantium ipsam vero repudiandae qui. Ratione aut cumque dignissimos omnis. Nobis dolores non odio qui. Deleniti repellat incidunt vel. Eius iusto quae eaque provident.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [
+        1,
+        1
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        2
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 159,
+      "name": "Handcrafted Steel Bike",
+      "location": "Lake Samanta, MD",
+      "location_lat": "70.7336",
+      "location_lon": "23.9488",
+      "cost": 312175,
+      "description": "Rem inventore sit voluptatem fugit exercitationem. Quidem ea inventore atque voluptatem aliquam ducimus a. Error in cumque ipsam quos ipsam aut autem quisquam et. Dignissimos quod quis est et voluptatem repellat. Quasi quasi eos. Modi tempore quia reprehenderit autem et.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 4,
+      "status": "in_progress",
+      "finish": [],
+      "software": [],
+      "technique": [
+        2,
+        2
+      ],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        1
+      ],
+      "team": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": 160,
+      "name": "Awesome Metal Pizza",
+      "location": "New Kodyport, KY",
+      "location_lat": "45.4848",
+      "location_lon": "-4.5415",
+      "cost": 89302,
+      "description": "Et nisi qui quia illo. Exercitationem atque ullam est quo. Dicta sed voluptatem nostrum atque sunt rerum non magni.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        2,
+        2
+      ],
+      "software": [
+        1,
+        3
+      ],
+      "technique": [
+        2,
+        2
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 161,
+      "name": "Fantastic Metal Mouse",
+      "location": "Abshireside, ND",
+      "location_lat": "-53.8318",
+      "location_lon": "-103.3415",
+      "cost": 156476,
+      "description": "Delectus quod quas. Optio voluptas laboriosam molestiae necessitatibus laborum provident ipsa. Nemo sit ut laborum quod natus. Autem consequatur nesciunt.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [
+        4,
+        1
+      ],
+      "software": [
+        1
+      ],
+      "technique": [],
+      "machine": [
+        1,
+        1
+      ],
+      "hardware": [
+        2,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 162,
+      "name": "Tasty Concrete Shoes",
+      "location": "Jonestown, MD",
+      "location_lat": "-46.3867",
+      "location_lon": "-104.7064",
+      "cost": 245965,
+      "description": "Corrupti porro quis dolorum sapiente numquam vero. Voluptatum fugit eaque facere ducimus sed sit accusamus quo sit. Ducimus non modi odio labore dolorum aut iusto vel. Placeat nihil sed ut deleniti adipisci.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 163,
+      "name": "Generic Concrete Bacon",
+      "location": "Marilouhaven, WV",
+      "location_lat": "44.3675",
+      "location_lon": "-155.1023",
+      "cost": 302406,
+      "description": "Omnis eaque ut animi commodi magnam aut sequi. Illo maiores velit tempora id saepe eaque tenetur consequuntur. Et maiores hic error impedit et vel omnis blanditiis. Beatae similique tenetur quidem vel et qui cupiditate aut. Accusamus in rerum qui autem similique.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 1,
+      "status": "under_development",
+      "finish": [],
+      "software": [],
+      "technique": [],
+      "machine": [
+        1,
+        3
+      ],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": [
+        3,
+        3
+      ]
+    },
+    {
+      "id": 164,
+      "name": "Incredible Wooden Ball",
+      "location": "Port Elijahport, FL",
+      "location_lat": "44.7374",
+      "location_lon": "15.7498",
+      "cost": 102307,
+      "description": "Quae voluptas sapiente velit veniam vero soluta. Non autem dolor ut dignissimos quo et amet quam et. Ipsum magni enim. Sit consequuntur nisi molestiae.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 2,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [
+        1,
+        4
+      ],
+      "technique": [
+        3,
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        2,
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 165,
+      "name": "Refined Cotton Mouse",
+      "location": "Johannfort, MI",
+      "location_lat": "-78.2420",
+      "location_lon": "130.9231",
+      "cost": 471970,
+      "description": "Esse ad omnis doloremque impedit enim ut magni laborum. Exercitationem delectus alias quaerat ut aspernatur itaque dicta et velit. Voluptatem est vel.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 4,
+      "status": "completed",
+      "finish": [
+        3,
+        2
+      ],
+      "software": [
+        1
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": 166,
+      "name": "Sleek Frozen Car",
+      "location": "Kleinland, SD",
+      "location_lat": "0.0938",
+      "location_lon": "-94.6158",
+      "cost": 361097,
+      "description": "Quidem voluptatem officia rerum aut quis. Magnam laborum fugit voluptatem et iusto eaque quas iure. Sint quis doloribus nisi nihil.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        2
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 167,
+      "name": "Sleek Soft Hat",
+      "location": "Hoppechester, OH",
+      "location_lat": "-75.7669",
+      "location_lon": "84.5565",
+      "cost": 186977,
+      "description": "Aut et iusto. Libero quis minus maiores perspiciatis debitis sapiente totam dolor officiis. A consequatur fugit incidunt quaerat maxime nam facilis omnis nostrum. Aut minus rem.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [
+        4,
+        4
+      ],
+      "software": [
+        2,
+        1
+      ],
+      "technique": [
+        3,
+        2
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": [
+        5,
+        3
+      ]
+    },
+    {
+      "id": 168,
+      "name": "Gorgeous Granite Bacon",
+      "location": "Reillyberg, GA",
+      "location_lat": "9.2916",
+      "location_lon": "-70.0582",
+      "cost": 466555,
+      "description": "Praesentium sed aut voluptas. Ab ipsa quis pariatur omnis natus id. Qui provident a magnam quo ex in quo et. Deserunt iste quis magni alias in. Aut corporis molestiae in eaque beatae.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 2,
+      "status": "under_development",
+      "finish": [
+        2,
+        1
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        2,
+        3
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 169,
+      "name": "Fantastic Plastic Soap",
+      "location": "Port Kennedi, RI",
+      "location_lat": "15.6345",
+      "location_lon": "21.3501",
+      "cost": 412800,
+      "description": "Temporibus rerum consequuntur facere quia minus placeat nisi. Aliquam quia autem aut quasi blanditiis nam. Aliquam beatae commodi amet corrupti debitis sed reiciendis qui. Et quia ut nihil suscipit. Aut velit aliquid. Et perspiciatis numquam ex aspernatur officiis qui sit accusamus.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        1
+      ],
+      "software": [],
+      "technique": [
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 170,
+      "name": "Fantastic Concrete Sausages",
+      "location": "Mosesburgh, IN",
+      "location_lat": "20.2838",
+      "location_lon": "135.6318",
+      "cost": 440656,
+      "description": "Ut commodi voluptas blanditiis commodi vel est. Voluptatem doloremque nihil ut omnis voluptatum hic vitae repellat ea. Dolor in quo quia quae eaque voluptates. Est corporis soluta vero consequatur omnis. In possimus voluptatem qui rerum velit.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [
+        3
+      ],
+      "software": [
+        1,
+        4
+      ],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 171,
+      "name": "Unbranded Steel Table",
+      "location": "Marionchester, MI",
+      "location_lat": "63.6536",
+      "location_lon": "104.1835",
+      "cost": 22420,
+      "description": "Quod fuga aut sed sed ut et. Officiis at eius eos nostrum. Autem maiores et aut sunt. Repellat est tempora sunt dolores qui. Dolores voluptatibus ab asperiores nemo ipsum. Quae quos est fugiat.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 7,
+      "status": "under_development",
+      "finish": [
+        2,
+        3
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": 172,
+      "name": "Practical Steel Tuna",
+      "location": "South Devin, WI",
+      "location_lat": "52.1777",
+      "location_lon": "-156.7631",
+      "cost": 273199,
+      "description": "Nihil corrupti impedit quaerat praesentium. Sit et aspernatur officiis inventore excepturi exercitationem. Odit nihil et architecto. Sed iure vel omnis at perferendis at error. Velit fuga dolor saepe saepe dolore quos cupiditate.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 8,
+      "status": "under_development",
+      "finish": [
+        1
+      ],
+      "software": [
+        4
+      ],
+      "technique": [],
+      "machine": [
+        1,
+        3
+      ],
+      "hardware": [],
+      "team": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 173,
+      "name": "Tasty Soft Computer",
+      "location": "West Maybelleburgh, NJ",
+      "location_lat": "7.1011",
+      "location_lon": "68.6561",
+      "cost": 91170,
+      "description": "Fugiat repudiandae officia modi tempora voluptas. Qui qui perspiciatis ut nulla quo aut fugiat et. Neque dolorum nam ut et dolorem aliquam. Voluptatem ullam doloremque voluptatem. Est laboriosam dolore occaecati voluptas id. Numquam eum ut autem placeat dolor.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        2
+      ],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 174,
+      "name": "Rustic Plastic Computer",
+      "location": "North Sebastian, WA",
+      "location_lat": "-51.3627",
+      "location_lon": "-77.7995",
+      "cost": 322635,
+      "description": "Dolore quia mollitia et eius voluptatem labore sit aut. Aut rerum iure. Dolores dolorum id illum odio.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 8,
+      "status": "under_development",
+      "finish": [
+        2
+      ],
+      "software": [
+        4
+      ],
+      "technique": [],
+      "machine": [
+        1,
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 175,
+      "name": "Refined Frozen Salad",
+      "location": "East Adalbertomouth, IN",
+      "location_lat": "-65.7591",
+      "location_lon": "-110.2792",
+      "cost": 240801,
+      "description": "Reprehenderit tempora molestiae iusto illum. Modi rerum sit aliquam iure quia sint. Magni quis laudantium est. Et aut quibusdam repudiandae veritatis et repellendus. Velit praesentium quibusdam est.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        1
+      ],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 176,
+      "name": "Intelligent Rubber Keyboard",
+      "location": "Monahanmouth, AR",
+      "location_lat": "65.9279",
+      "location_lon": "57.9290",
+      "cost": 395127,
+      "description": "Sint impedit facere architecto quisquam. Nihil cum molestias animi. Molestiae laboriosam sapiente praesentium aut corrupti recusandae fugit aut. Omnis aut est veritatis. Vel in architecto. Repudiandae occaecati quo in.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 9,
+      "status": "in_progress",
+      "finish": [
+        2,
+        4
+      ],
+      "software": [
+        2,
+        4
+      ],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 177,
+      "name": "Licensed Plastic Cheese",
+      "location": "Eunastad, VA",
+      "location_lat": "27.0821",
+      "location_lon": "-166.2541",
+      "cost": 389861,
+      "description": "In et quos quibusdam facilis dolores. Sed consequatur vel rem sit mollitia nobis. Sed sed aut fuga non. Modi qui sit rem itaque reprehenderit optio alias excepturi.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [
+        2,
+        3
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3
+      ],
+      "team": [
+        4,
+        1
+      ]
+    },
+    {
+      "id": 178,
+      "name": "Sleek Fresh Keyboard",
+      "location": "Mrazville, NH",
+      "location_lat": "51.3450",
+      "location_lon": "-9.8110",
+      "cost": 105603,
+      "description": "Eius maiores ea perspiciatis odio voluptas tempore harum et. Blanditiis non corrupti eos qui eveniet necessitatibus. Aliquam occaecati officia nam a.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        4,
+        1
+      ],
+      "technique": [
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 179,
+      "name": "Handmade Granite Hat",
+      "location": "Lueilwitzburgh, HI",
+      "location_lat": "68.7470",
+      "location_lon": "-103.1763",
+      "cost": 80113,
+      "description": "Fugiat sint sunt consectetur facere atque doloremque. Corrupti veritatis voluptatum voluptas. Vel veritatis ut odit. Consequatur fugiat ex omnis. Quia dolore doloremque qui facere nisi nulla officia.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 7,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [
+        3,
+        4
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 180,
+      "name": "Unbranded Granite Cheese",
+      "location": "East Raleigh, RI",
+      "location_lat": "80.0904",
+      "location_lon": "48.8607",
+      "cost": 84276,
+      "description": "Occaecati aut fuga omnis ut esse aut. Recusandae necessitatibus dolore ea quam placeat vel ab officiis. Perspiciatis illo recusandae asperiores fuga unde. Provident fugiat quia aut tempore sint. Ipsam autem temporibus voluptatem amet praesentium distinctio et.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [
+        2,
+        1
+      ],
+      "software": [
+        3
+      ],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        3
+      ],
+      "team": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": 181,
+      "name": "Practical Cotton Table",
+      "location": "Weissnatshire, PA",
+      "location_lat": "77.1799",
+      "location_lon": "-152.7827",
+      "cost": 470312,
+      "description": "Quos assumenda eveniet et ad incidunt consequatur iusto accusamus. Aut asperiores quia veritatis assumenda in qui aut optio possimus. Placeat maxime id aliquam voluptatibus sint neque sit dolorem optio. Sequi vel fuga. Eos sit ut accusamus et possimus voluptatem et dolore. Sapiente voluptates velit.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 8,
+      "status": "under_development",
+      "finish": [
+        1,
+        1
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        1,
+        1
+      ],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 182,
+      "name": "Licensed Frozen Keyboard",
+      "location": "West Dextermouth, KS",
+      "location_lat": "-61.3647",
+      "location_lon": "-66.8869",
+      "cost": 261372,
+      "description": "Tempora minima illo illo. Enim sint veritatis. Esse impedit nostrum deleniti sed sit voluptas. Cupiditate dignissimos vel adipisci itaque. Consequatur expedita dolore cum cumque. Provident iste molestiae sit deleniti et sed.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 4,
+      "status": "completed",
+      "finish": [
+        4,
+        3
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": [
+        2
+      ]
+    },
+    {
+      "id": 183,
+      "name": "Small Granite Bacon",
+      "location": "Bashirianhaven, AL",
+      "location_lat": "-48.8689",
+      "location_lon": "112.8101",
+      "cost": 165003,
+      "description": "Vero mollitia et quis quae. Fugiat et adipisci inventore iusto labore enim. Fuga omnis dignissimos ab. Quam ut accusamus expedita odio.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        1,
+        4
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        3,
+        1
+      ],
+      "team": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 184,
+      "name": "Handcrafted Metal Pizza",
+      "location": "Lake Kieranmouth, MS",
+      "location_lat": "-35.6369",
+      "location_lon": "-31.1871",
+      "cost": 474366,
+      "description": "Voluptas optio et impedit optio et voluptas est et ut. Nobis ipsa delectus maxime et velit. Sint inventore velit quas debitis. Consequatur autem est ipsam sit dolores aut amet. Voluptas deserunt iure accusantium rerum maiores facere. Impedit earum eveniet quo voluptatibus eum officia alias nesciunt.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 8,
+      "status": "in_progress",
+      "finish": [
+        3,
+        3
+      ],
+      "software": [
+        1,
+        1
+      ],
+      "technique": [],
+      "machine": [
+        2,
+        2
+      ],
+      "hardware": [],
+      "team": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": 185,
+      "name": "Licensed Cotton Sausages",
+      "location": "Roryton, NJ",
+      "location_lat": "-69.9002",
+      "location_lon": "60.0660",
+      "cost": 35877,
+      "description": "Vel ullam neque expedita ex quod dolores voluptas rerum. Amet sapiente laudantium nobis accusamus aliquid consequatur omnis natus magni. Aut et ad. Eligendi qui cum non enim tempore adipisci ut omnis consequuntur.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 9,
+      "status": "completed",
+      "finish": [
+        3
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        3,
+        3
+      ],
+      "machine": [
+        3,
+        2
+      ],
+      "hardware": [
+        3,
+        2
+      ],
+      "team": []
+    },
+    {
+      "id": 186,
+      "name": "Handmade Concrete Bacon",
+      "location": "Eastonland, MT",
+      "location_lat": "-33.2465",
+      "location_lon": "-73.6723",
+      "cost": 91079,
+      "description": "Sequi quia magnam. Aut quia possimus provident. Facere earum ad dolor possimus quo quia quas fugit.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 7,
+      "status": "in_progress",
+      "finish": [],
+      "software": [
+        1,
+        2
+      ],
+      "technique": [],
+      "machine": [
+        3
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 187,
+      "name": "Small Frozen Bacon",
+      "location": "Predovictown, AZ",
+      "location_lat": "12.3658",
+      "location_lon": "-33.8079",
+      "cost": 334143,
+      "description": "Voluptas aperiam ut et qui odit quam consequuntur. At repudiandae quidem iusto qui assumenda. Architecto non itaque non quidem. Ut eum veritatis.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [
+        3,
+        3
+      ],
+      "hardware": [
+        2,
+        2
+      ],
+      "team": [
+        5
+      ]
+    },
+    {
+      "id": 188,
+      "name": "Handmade Rubber Cheese",
+      "location": "North Katheryntown, RI",
+      "location_lat": "-16.5945",
+      "location_lon": "80.5085",
+      "cost": 131491,
+      "description": "Esse quia eum. Perspiciatis ab assumenda exercitationem ab occaecati. Dolores consequatur velit aut voluptas quos non.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 2,
+      "status": "under_development",
+      "finish": [
+        1,
+        1
+      ],
+      "software": [
+        3
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [
+        1,
+        2
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 189,
+      "name": "Rustic Frozen Gloves",
+      "location": "West Yesenia, VA",
+      "location_lat": "0.6557",
+      "location_lon": "89.4876",
+      "cost": 108814,
+      "description": "Autem placeat velit sed. Beatae sit quos qui esse consequatur alias. Alias quibusdam non. Voluptatem quasi ex soluta veritatis a perferendis.",
+      "thumbnail": "images/projects/9.jpg",
+      "client_id": 5,
+      "status": "completed",
+      "finish": [
+        3,
+        4
+      ],
+      "software": [
+        4
+      ],
+      "technique": [],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 190,
+      "name": "Handmade Granite Shoes",
+      "location": "Osinskifort, MD",
+      "location_lat": "10.8870",
+      "location_lon": "26.2821",
+      "cost": 428363,
+      "description": "Veniam non accusamus inventore harum fuga ab aliquid saepe sint. Impedit ut est corporis quaerat quae dolorem qui consequatur velit. Dolorem quis incidunt. Odit perferendis eveniet architecto enim distinctio dolorum.",
+      "thumbnail": "images/projects/10.jpg",
+      "client_id": 2,
+      "status": "in_progress",
+      "finish": [
+        3,
+        3
+      ],
+      "software": [
+        2,
+        4
+      ],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        1
+      ],
+      "team": []
+    },
+    {
+      "id": 191,
+      "name": "Awesome Frozen Sausages",
+      "location": "Nyatown, NM",
+      "location_lat": "15.8712",
+      "location_lon": "-146.9945",
+      "cost": 161362,
+      "description": "Est quas est exercitationem facere beatae dicta. Voluptatem libero in provident. Provident veniam amet dolorem debitis assumenda. Iure cumque at.",
+      "thumbnail": "images/projects/11.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        1,
+        1
+      ],
+      "software": [],
+      "technique": [
+        1,
+        1
+      ],
+      "machine": [
+        2,
+        3
+      ],
+      "hardware": [
+        1,
+        1
+      ],
+      "team": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 192,
+      "name": "Incredible Metal Mouse",
+      "location": "Clotildebury, TN",
+      "location_lat": "50.1117",
+      "location_lon": "69.9364",
+      "cost": 420097,
+      "description": "Recusandae ea dolores in blanditiis blanditiis ullam. Explicabo excepturi aperiam est modi quam eveniet sit. Ipsam ea voluptas ut culpa illo quam soluta qui enim. Alias ut aliquid dolorem consequatur voluptas cumque. Similique a id animi reiciendis et quo eos aut ut.",
+      "thumbnail": "images/projects/12.jpg",
+      "client_id": 1,
+      "status": "completed",
+      "finish": [],
+      "software": [],
+      "technique": [
+        3,
+        1
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 193,
+      "name": "Incredible Concrete Tuna",
+      "location": "Einofurt, MO",
+      "location_lat": "-65.7023",
+      "location_lon": "-170.1264",
+      "cost": 47578,
+      "description": "Iure sapiente error iste molestias omnis est excepturi. Et possimus quasi eaque hic consequuntur ut porro fuga. Qui sunt totam autem. Est qui consequatur facere rerum et nostrum voluptate et sed. Culpa quod eligendi repellendus.",
+      "thumbnail": "images/projects/1.jpg",
+      "client_id": 3,
+      "status": "in_progress",
+      "finish": [
+        1,
+        4
+      ],
+      "software": [
+        2
+      ],
+      "technique": [
+        1,
+        1
+      ],
+      "machine": [
+        3,
+        2
+      ],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": [
+        4
+      ]
+    },
+    {
+      "id": 194,
+      "name": "Handcrafted Wooden Bacon",
+      "location": "Siennahaven, OH",
+      "location_lat": "87.7759",
+      "location_lon": "-97.4289",
+      "cost": 247052,
+      "description": "Nam minus ipsam voluptas esse. Vel officiis rerum in ea nemo qui beatae ipsum. Harum ut nisi sit nostrum delectus qui atque.",
+      "thumbnail": "images/projects/2.jpg",
+      "client_id": 2,
+      "status": "under_development",
+      "finish": [
+        2
+      ],
+      "software": [],
+      "technique": [
+        2
+      ],
+      "machine": [],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": []
+    },
+    {
+      "id": 195,
+      "name": "Handmade Concrete Chicken",
+      "location": "Bauchborough, KY",
+      "location_lat": "46.1649",
+      "location_lon": "155.1847",
+      "cost": 219589,
+      "description": "Ut suscipit sed ipsam molestias delectus nostrum. Enim voluptatem voluptas minus est earum dignissimos. Veritatis cumque natus voluptatem hic natus tempora. Quasi ipsum quae itaque. Pariatur ut repellendus perferendis incidunt possimus.",
+      "thumbnail": "images/projects/3.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        3,
+        2
+      ],
+      "software": [],
+      "technique": [],
+      "machine": [
+        1
+      ],
+      "hardware": [],
+      "team": [
+        4,
+        2
+      ]
+    },
+    {
+      "id": 196,
+      "name": "Refined Granite Salad",
+      "location": "Lednerbury, OK",
+      "location_lat": "-26.6335",
+      "location_lon": "-106.0592",
+      "cost": 78756,
+      "description": "Ipsam officia alias. Enim dolor quis delectus. Aspernatur fugit vitae sunt voluptas odit vitae. Possimus distinctio iste ipsa omnis reiciendis.",
+      "thumbnail": "images/projects/4.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        2
+      ],
+      "software": [
+        1
+      ],
+      "technique": [
+        1,
+        2
+      ],
+      "machine": [],
+      "hardware": [],
+      "team": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 197,
+      "name": "Tasty Concrete Mouse",
+      "location": "Kemmermouth, MA",
+      "location_lat": "-74.6981",
+      "location_lon": "42.2964",
+      "cost": 318364,
+      "description": "Ut distinctio qui error. Eligendi autem sit doloribus odio omnis velit. Et dolor autem ratione voluptatibus minus suscipit quam. Mollitia expedita voluptas non asperiores omnis error et eos.",
+      "thumbnail": "images/projects/5.jpg",
+      "client_id": 5,
+      "status": "under_development",
+      "finish": [
+        3,
+        1
+      ],
+      "software": [
+        4,
+        3
+      ],
+      "technique": [
+        1
+      ],
+      "machine": [
+        2
+      ],
+      "hardware": [
+        3,
+        3
+      ],
+      "team": [
+        2,
+        1
+      ]
+    },
+    {
+      "id": 198,
+      "name": "Gorgeous Cotton Towels",
+      "location": "Lake Melisafort, WI",
+      "location_lat": "45.9709",
+      "location_lon": "3.0901",
+      "cost": 115958,
+      "description": "Dolor qui qui illum placeat quidem animi id. Quae nulla voluptates ut non. Totam similique officiis ab aspernatur sed nobis explicabo. Perspiciatis est quisquam et iste qui iste quia id reprehenderit. Sunt architecto cumque magni.",
+      "thumbnail": "images/projects/6.jpg",
+      "client_id": 6,
+      "status": "in_progress",
+      "finish": [
+        4
+      ],
+      "software": [
+        2
+      ],
+      "technique": [],
+      "machine": [
+        1,
+        1
+      ],
+      "hardware": [],
+      "team": []
+    },
+    {
+      "id": 199,
+      "name": "Handcrafted Metal Chair",
+      "location": "West Quintonburgh, DE",
+      "location_lat": "53.4586",
+      "location_lon": "-138.1239",
+      "cost": 240480,
+      "description": "Accusantium vitae magnam maiores voluptas at voluptatem. Modi amet suscipit itaque perspiciatis quae quasi aut exercitationem quam. Molestiae sunt harum autem. Nam vitae minus natus dolores est at assumenda.",
+      "thumbnail": "images/projects/7.jpg",
+      "client_id": 6,
+      "status": "completed",
+      "finish": [
+        4
+      ],
+      "software": [],
+      "technique": [
+        1,
+        3
+      ],
+      "machine": [],
+      "hardware": [
+        2
+      ],
+      "team": [
+        2,
+        2
+      ]
+    },
+    {
+      "id": 200,
+      "name": "Rustic Fresh Gloves",
+      "location": "Port Merlinmouth, RI",
+      "location_lat": "-32.9779",
+      "location_lon": "177.8017",
+      "cost": 260587,
+      "description": "Ut et ea soluta eaque. Id quaerat magnam aut unde inventore eveniet. Quia repellendus nihil porro cumque nihil enim dolor voluptatum sed. Ea repudiandae architecto delectus nihil autem maiores adipisci similique.",
+      "thumbnail": "images/projects/8.jpg",
+      "client_id": 8,
+      "status": "completed",
+      "finish": [],
+      "software": [
+        3
+      ],
+      "technique": [
+        2,
+        1
+      ],
+      "machine": [
+        1
+      ],
+      "hardware": [
+        1,
+        3
+      ],
+      "team": [
+        1,
+        3
+      ]
+    }
+  ],
+  "finish": [
+    {
+      "id": 1,
+      "name": "lacquer",
+      "display_name": "Lacquer"
+    },
+    {
+      "id": 2,
+      "name": "conversion_varnish",
+      "display_name": "Conversion Varnish"
+    },
+    {
+      "id": 3,
+      "name": "wax",
+      "display_name": "Wax"
+    },
+    {
+      "id": 4,
+      "name": "powdercoat",
+      "display_name": "Powdercoat"
+    }
+  ],
+  "software": [
+    {
+      "id": 1,
+      "name": "autocad",
+      "display_name": "Autocad"
+    },
+    {
+      "id": 1,
+      "name": "rhino",
+      "display_name": "Rhino"
+    },
+    {
+      "id": 1,
+      "name": "solidworks",
+      "display_name": "Solidworks"
+    },
+    {
+      "id": 1,
+      "name": "grasshoper",
+      "display_name": "Grasshopper"
+    }
+  ],
+  "technique": [
+    {
+      "id": 1,
+      "name": "veneering",
+      "display_name": "Veneering"
+    },
+    {
+      "id": 2,
+      "name": "thermoforming",
+      "display_name": "Thermoforming"
+    },
+    {
+      "id": 3,
+      "name": "inlay",
+      "display_name": "Inlay"
+    }
+  ],
+  "machine": [
+    {
+      "id": 1,
+      "name": "weeke",
+      "display_name": "Weeke"
+    },
+    {
+      "id": 2,
+      "name": "flow",
+      "display_name": "Flow"
+    },
+    {
+      "id": 3,
+      "name": "holzma",
+      "display_name": "Holzma"
+    }
+  ],
+  "hardware": [
+    {
+      "id": 1,
+      "name": "european_hinges",
+      "display_name": "European Hinges"
+    },
+    {
+      "id": 2,
+      "name": "casters",
+      "display_name": "Casters"
+    },
+    {
+      "id": 3,
+      "name": "pulls",
+      "display_name": "Pulls"
+    }
+  ],
+  "team": [
+    {
+      "id": 1,
+      "name": "woodwork",
+      "display_name": "Woodwork"
+    },
+    {
+      "id": 2,
+      "name": "metalwork",
+      "display_name": "Metalwork"
+    },
+    {
+      "id": 3,
+      "name": "cnc",
+      "display_name": "CNC"
+    },
+    {
+      "id": 4,
+      "name": "finishing",
+      "display_name": "Finishing"
+    },
+    {
+      "id": 5,
+      "name": "facilities",
+      "display_name": "Facilities"
+    }
+  ]
+}

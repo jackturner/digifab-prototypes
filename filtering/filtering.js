@@ -7,6 +7,11 @@ var dfs = (function() {
 			_clients,
 			_projects
 
+	var build = function(json) {
+		build_projects(json.projects)
+		build_clients(json.clients)
+	}
+
 	var build_projects = function (projects_json) {
 
 		_projects = projects_json
@@ -172,10 +177,55 @@ var dfs = (function() {
 		return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 	}
 
-	$.getJSON( "clients.json", build_clients)
-	$.getJSON( "projects.json", build_projects)
+	var filter_by_status = function() {
+
+		var searching_for_status = this.value
+
+		$project_cards.each(function() {
+			var $this = $(this)
+
+			if(	searching_for_status == 'all' ||
+					$this.data('status') == searching_for_status)
+				$this.show()
+			else
+				$this.hide()
+		})
+	}
+
+	var filter_by_finish = function() {
+
+		var $form = $(this),
+				$checked = $form.find(':checked'),
+				filtering_by = $form.data('filter')
+				ids = []
+		
+		$checked.each(function() {
+		  ids.push(parseInt(this.value))
+		})
+
+		$project_cards.each(function() {
+			var $this = $(this)
+
+			if(	!ids.length || find_one($this.data(filtering_by), ids) )
+				$this.show()
+			else
+				$this.hide()
+		})
+
+	}
+
+	var find_one = function (haystack, arr) {
+    return arr.some(function (v) {
+      return haystack.indexOf(v) >= 0
+    })
+	}
+
+	$.getJSON( "data.json", build)
 	$('.filter-toggle').click(toggle_filter)
 	setup_cost_slider()
+	$('#filter-status-form').on('change', 'select', filter_by_status)
+
+	$('#filter-finish-form,#filter-software-form,#filter-technique-form,#filter-machine-form,#filter-hard-form,#filter-team-form').on('change', filter_by_finish)
 
 	return {
 		projects: function() { return _projects }

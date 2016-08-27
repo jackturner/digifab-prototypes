@@ -20,13 +20,21 @@
       <nav id="filter-nav">
         <span class="filter-toggle" data-filter="client">Client</span>,
         <span class="filter-toggle" data-filter="cost">Cost</span>,
-        <span class="filter-toggle" data-filter="location">Location</span>
+        <span class="filter-toggle" data-filter="location">Location</span>,
+        <span class="filter-toggle" data-filter="material">Material</span>,
+        <span class="filter-toggle" data-filter="status">Status</span>,
+        <span class="filter-toggle" data-filter="finish">Finish</span>,
+        <span class="filter-toggle" data-filter="software">Software</span>,
+        <span class="filter-toggle" data-filter="technique">Technique</span>,
+        <span class="filter-toggle" data-filter="machine">Machines</span>,
+        <span class="filter-toggle" data-filter="hardware">Hardware</span>,
+        <span class="filter-toggle" data-filter="team">Team</span>
       </nav>
 
       <div id="filters">
 
         <div class="filter" id="filter-client">
-          select a client…
+          <h1>Choose a client…</h1>
           <fieldset>
             <div id="client-cards"></div>
           </fieldset>
@@ -42,6 +50,80 @@
           <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.js'></script>
           <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v1.3.0/mapbox-gl-geocoder.css' type='text/css' />
           <div id="map"></div>
+        </div>
+
+        <div class="filter" id="filter-material">
+          this one is tricky and requires some disuccsion between us before i start…
+        </div>
+
+        <div class="filter" id="filter-status">
+          <h1>select a status…</h1>
+          <form id="filter-status-form">
+            <select>
+              <option value="all">All</option>
+              <option value="completed">Completed</option>
+              <option value="in_progress">In progress</option>
+              <option value="under_development">Under development</option>
+            </select>
+          </form>
+        </div>
+
+        <div class="filter" id="filter-finish">
+          select a finishes…<br /><br />
+          <form id="filter-finish-form" data-filter="finish">
+            <label><input type="checkbox" name="filter-finish" value="1" />Lacquer</label><br />
+            <label><input type="checkbox" name="filter-finish" value="2" />Conversion Varnish</label><br />
+            <label><input type="checkbox" name="filter-finish" value="3" />Wax</label><br />
+            <label><input type="checkbox" name="filter-finish" value="4" />Powdercoat</label>
+          </form>
+        </div>
+
+        <div class="filter" id="filter-software">
+          choose software packaces<br /><br />
+          <form id="filter-software-form" data-filter="software">
+            <label><input type="checkbox" name="filter-software" value="1" />Autocad</label><br />
+            <label><input type="checkbox" name="filter-software" value="2" />Rhino</label><br />
+            <label><input type="checkbox" name="filter-software" value="3" />Solidworks</label><br />
+            <label><input type="checkbox" name="filter-software" value="4" />Grasshopper</label>
+          </form>
+        </div>
+
+        <div class="filter" id="filter-technique">
+          choose techniques…<br /><br />
+          <form id="filter-technique-form" data-filter="technique">
+            <label><input type="checkbox" name="filter-technique" value="1" />Veneering</label><br />
+            <label><input type="checkbox" name="filter-technique" value="2" />Thermoforming</label><br />
+            <label><input type="checkbox" name="filter-technique" value="3" />Inlay</label><br />
+          </form>
+        </div>
+
+        <div class="filter" id="filter-machine">
+          choose machines<br /><br />
+          <form id="filter-machine-form" data-filter="machine">
+            <label><input type="checkbox" name="filter-machine" value="1" />Weeke</label><br />
+            <label><input type="checkbox" name="filter-machine" value="2" />Flow</label><br />
+            <label><input type="checkbox" name="filter-machine" value="3" />Holzma</label><br />
+          </form>
+        </div>
+
+        <div class="filter" id="filter-hardware">
+          choose hardware…<br /><br />
+          <form id="filter-hardware-form" data-filter="hardware">
+            <label><input type="checkbox" name="filter-hardware" value="1" />European Hinges</label><br />
+            <label><input type="checkbox" name="filter-hardware" value="2" />Casters</label><br />
+            <label><input type="checkbox" name="filter-hardware" value="3" />Pulls</label><br />
+          </form>
+        </div>
+
+        <div class="filter" id="filter-team">
+          choose teams…<br /><br />
+          <form id="filter-team-form" data-filter="team">
+            <label><input type="checkbox" name="filter-team" value="1" />Woodwork</label><br />
+            <label><input type="checkbox" name="filter-team" value="2" />Metalwork</label><br />
+            <label><input type="checkbox" name="filter-team" value="3" />CNC</label><br />
+            <label><input type="checkbox" name="filter-team" value="4" />Finishing</label><br />
+            <label><input type="checkbox" name="filter-team" value="5" />Facilities</label><br />
+          </form>
         </div>
 
       </div>

@@ -37,6 +37,23 @@ html {
 @font-face {font-family: 'DistrictBlack';src: url('../webfonts/1CE0F0_B_0.eot');src: url('../webfonts/1CE0F0_B_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_B_0.woff') format('woff'),url('../webfonts/1CE0F0_B_0.ttf') format('truetype');} 
 @font-face {font-family: 'DistrictBlackItalic';src: url('../webfonts/1CE0F0_2_0.eot');src: url('../webfonts/1CE0F0_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/1CE0F0_2_0.woff') format('woff'),url('../webfonts/1CE0F0_2_0.ttf') format('truetype');} 
 
+/* BASE STYLES */
+body {
+    font-family:        'Helvetica Neue', Helvetica, arial, sans-serif;
+    font-style:         normal;
+    font-weight:        300;
+    font-size:          16px;
+    }
+
+a { 
+    color:              inherit;
+    text-decoration:    inherit;
+    }
+
+li {
+    list-style:         none;
+    }
+
 #project-cards {
     position:           absolute;
     width:              100%;
@@ -123,6 +140,11 @@ html {
 
 
 /* FILTERS */
+#filtering {
+    margin:             12px 1.6666666665%;
+    text-align:         center;
+    }
+
 #filter-nav {
     display:            inline;
     }
@@ -136,6 +158,12 @@ html {
     display:            none;
     margin:             18px 4%;
     position:           relative;
+    text-align:         left;
+    }
+
+.filter h1 {
+    font-size:          16px;
+    font-style:         normal;
     }
 
 #map {
