@@ -158,7 +158,6 @@ li {
     display:            none;
     margin:             18px 4%;
     position:           relative;
-    text-align:         left;
     }
 
 .filter h1 {
@@ -166,7 +165,26 @@ li {
     font-style:         normal;
     }
 
+#filter-location {
+    text-align:         left;
+    }
+
 #map {
     width:              100%;
     height:             400px;
+    }
+
+.filter form {
+    display:            inline;
+    }
+
+.filter form label {
+    display:            inline-block;
+    margin:             0 4px;
+    font-size:          15px;
+    cursor:             pointer;
+    }
+
+.filter form label input {
+    margin-right:       4px;
     }

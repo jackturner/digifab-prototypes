@@ -192,7 +192,7 @@ var dfs = (function() {
 		})
 	}
 
-	var filter_by_finish = function() {
+	var filter_by_checkboxes = function() {
 
 		var $form = $(this),
 				$checked = $form.find(':checked'),
@@ -225,7 +225,7 @@ var dfs = (function() {
 	setup_cost_slider()
 	$('#filter-status-form').on('change', 'select', filter_by_status)
 
-	$('#filter-finish-form,#filter-software-form,#filter-technique-form,#filter-machine-form,#filter-hard-form,#filter-team-form').on('change', filter_by_finish)
+	$('#filter-finish-form,#filter-software-form,#filter-technique-form,#filter-machine-form,#filter-hard-form,#filter-team-form').on('change', filter_by_checkboxes)
 
 	return {
 		projects: function() { return _projects }
