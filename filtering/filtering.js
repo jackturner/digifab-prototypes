@@ -1,15 +1,19 @@
-var dfs = (function() {
+// var dfs = (function() {
   
 	var $project_card_container = $('#project-cards'),
 			$client_card_container = $('#client-cards'),
 			$project_cards,
+			$checkbox_forms = $('#filter-finish-form,#filter-software-form,#filter-technique-form,#filter-machine-form,#filter-hardware-form,#filter-team-form'),
 			_map,
 			_clients,
-			_projects
+			_projects,
+			_data
 
 	var build = function(json) {
+		_data = json
 		build_projects(json.projects)
 		build_clients(json.clients)
+		$checkbox_forms.on('change', filter_by_checkboxes).each(build_form)
 	}
 
 	var build_projects = function (projects_json) {
@@ -72,7 +76,7 @@ var dfs = (function() {
 			try{
 				eval('show_' + filter_name + '()')
 			} catch(e) {
-				console.log(e)
+				// console.log(e)
 			}
 	  }
 	}
@@ -220,15 +224,37 @@ var dfs = (function() {
     })
 	}
 
+// <label><input type="checkbox" name="filter-finish" value="1" />Lacquer</label>
+// <label><input type="checkbox" name="filter-finish" value="2" />Conversion Varnish</label>
+// <label><input type="checkbox" name="filter-finish" value="3" />Wax</label>
+// <label><input type="checkbox" name="filter-finish" value="4" />Powdercoat</label>
+
+	var build_form= function() {
+
+		var $this = $(this),
+				filter_type = $this.data('filter'),
+				filter_data = _data[filter_type]
+console.log(filter_type, filter_data.length)
+
+		for (var i = 0; i < filter_data.length; i++) {
+
+			var this_entry = filter_data[i]
+			console.log(filter_type, this_entry.display_name)
+			$('<label><input type="checkbox" value="'+this_entry.id+'" />'+this_entry.display_name+'</label>').appendTo($this)
+
+		}
+		// console.log(filter_type, filter_data)
+
+	}
+
 	$.getJSON( "data.json", build)
 	$('.filter-toggle').click(toggle_filter)
 	setup_cost_slider()
 	$('#filter-status-form').on('change', 'select', filter_by_status)
 
-	$('#filter-finish-form,#filter-software-form,#filter-technique-form,#filter-machine-form,#filter-hard-form,#filter-team-form').on('change', filter_by_checkboxes)
+	
+// 	return {
+// 		projects: function() { return _projects }
+// 	}
 
-	return {
-		projects: function() { return _projects }
-	}
-
-})();
+// })();
