@@ -41,6 +41,17 @@ var team = [
   {"id": 5, "name": "facilities", "display_name": "Facilities"}	
 ]
 
+var materials = [
+	{"material_category": "Lumber", "materials": ["African Mahogany","Ash","Atlantic Cedar","Black Palm","Black Walnut","Bloodwood","Bois de Rose","Butternut","Cebil","Cherry","Cypress","Douglas Fir","Elm","Gabon Ebony","Genuine Mahagany","Hackberry","Hard Maple","Hickory","Honey Locust","Ipê","Kentucky Coffee","Khaya Mahogany","Lacewood","Mara","Mesquite","Mulberry","Orangeheart","Osage Orange","Padauk","Pecan","Pink Ivory","Purpleheart","Red Birch","Red Oak","Red Palm","Redheart","Roasted Maple","Sapele","Sassafras","Soft Maple","Spanish Cedar","Sunsetwood","Sycamore","Teak","Western Red Cedar","White Birch","White Oak","White Pine","Yellow Birch","Yellow Pine","Yellowheart","Zebrawood"]}
+	,{"material_category": "Plywood", "materials": ["AC Fir","AC Marine","Aluminum Plywood","Bamboo","CDX","Chinese Birch","D3 Birch","D3 Maple","Douglas Fir ","Finply","FX Platform","Hemp Board","Knotty Pine","Lauan","Mahogany","Maple","MDF","MDO","Melamine","OSB","Primeboard","Rift White Oak","Russian Birch","Sunflower Seed Board","Vinyl Plywood  ","Walnut","Wheat Board","White Oak"]}
+	,{"material_category": "Plastic", "materials": ["ABS","Acetal","Acetate ","Acrylic","Cast Nylon","CPVC","Extruded Nylon","HDPE","Kapton","LDPE","Mylar","PET","PLA","Polycarbonate","Polyester","Polypropylene","Polystyrene","PPO","PVC","Teflon","UHMW"]}
+	,{"material_category": "Paper", "materials": ["Cardboard","Cardstock","Chipboard","Construction ","Copy","Matboard","Synthetic"]}
+	,{"material_category": "Fabric", "materials": ["Bamboo","Cotton","Hemp","Leather","Linen","Nylon","Polyester","Silk","Spandex","Wool"]}
+	,{"material_category": "Metal", "materials": ["Aluminum","Aluminum Foam","Anodized Aluminum","Brass","Bronze","Cold Rolled Steel","Copper","Copper Foam","Galvanized Steel","Hot Rolled Steel","Nickel","Stainless Steel ","Tin","Titanium"]}
+	,{"material_category": "Foam &amp; Rubber", "materials": ["Expanded Polypropylene ","Expanded Polystyrene","Expanded PVC","Extruded Polystyrene ","Foam Core","Gum Rubber","Neoprene","PET","Polyethylene Foam","Polyurethane","Polyurethane Foam","Silicone","Urethane"]}
+	,{"material_category": "Miscellaneous", "materials": ["Bark","Barn Board","Ceramic Tile","Concrete","Cork","Float Glass","Glass Block","Granite","High Pressure Laminate","Linoleum","Machinable Wax","Marble","Mineral Fiber Board","Mirror","Mushroom Wood","PaperStone","Richlite","Slate","Solid Surface","Stained Glass","Tempered Glass"]}
+]
+
 var data = {
 	"clients": [],
 	"projects": [],
@@ -49,7 +60,8 @@ var data = {
 	"technique": technique,
 	"machine": machine,
 	"hardware": hardware,
-	"team": team
+	"team": team,
+	"materials": materials
 }
 
 var random_client = function (num) {
@@ -74,6 +86,29 @@ var couple_of_ids = function (arr) {
 
 }
 
+var random_materials = function() {
+
+	var material_arr = []
+
+	if ( Math.random() > (2/3) ) {
+
+		var chosen_material = materials[Math.floor(Math.random() * materials.length)]
+
+		material_arr.push( chosen_material.material_category )
+
+		if ( Math.random() > 0.5 ) {
+
+			material_arr.push( chosen_material.materials[Math.floor(Math.random() * chosen_material.materials.length)] )
+
+		}
+
+
+	}
+
+	return material_arr
+
+}
+
 var random_project = function (num) {
 	return {
 		"id": num + 1,
@@ -91,7 +126,8 @@ var random_project = function (num) {
 		"technique": couple_of_ids(technique),
 	  "machine": couple_of_ids(machine),
 	  "hardware": couple_of_ids(hardware),
-	  "team": couple_of_ids(team)
+	  "team": couple_of_ids(team),
+	  "materials": random_materials()
 	}
 }
 
