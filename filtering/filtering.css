@@ -65,7 +65,7 @@ li {
 	}
 
 #project-cards:empty {
-    background-color:   orange;
+    /*background-color:   orange;*/
     }
 
 .mapboxgl-marker {
