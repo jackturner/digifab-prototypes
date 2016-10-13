@@ -14,6 +14,7 @@
 		build_projects(json.projects)
 		build_clients(json.clients)
 		$checkbox_forms.on('change', filter_by_checkboxes).each(build_form)
+		build_materials(json.materials)
 	}
 
 	var build_projects = function (projects_json) {
@@ -60,6 +61,101 @@
 
 	}
 
+	var show_material = function () {
+		$('#materials').empty()
+	}
+
+	var build_materials = function (materials_json) {
+
+		$('#material_categories').empty()
+
+		for(var i = 0; i < materials_json.length; i++) {
+
+			var material = materials_json[i]
+
+			var el = $('<span class="button"/>')
+								.text(material.material_category)
+								.appendTo('#material_categories')
+								.click(show_materials_for_cagetory)
+								.click(filter_by_material)
+
+		}
+
+	}
+
+	var filter_by_material = function() {
+
+		var materials_array = $('#filter-material .button.active').map(function() {
+			return $(this).text()
+		})
+
+		console.log(materials_array)
+
+		$project_cards.each(function() {
+
+			var $this = $(this),
+					materials = $this.data('materials')
+
+			if( !materials_array.length ) {
+				$this.show()
+			} else {
+				if ( materials_array[0] == materials[0] ) {
+					if ( materials_array[1] ) {
+						if ( materials_array[1] == materials[1] ) {
+							$this.show()
+						} else {
+							$this.hide()
+						}
+					} else {
+						$this.show()	
+					}
+				} else {
+					$this.hide()
+				}
+			}
+		})
+
+	}
+
+	var show_materials_for_cagetory = function(el) {
+
+		var $el = $(el.currentTarget)
+
+		if ( $el.hasClass('active') ) {
+			$el.removeClass('active')
+			$('#materials').empty()
+			return
+		}
+
+
+		$('#materials').empty().hide()
+
+		var material_num = $('#material_categories .button').removeClass('active').index($el)
+		$el.addClass('active')
+
+		// console.log( material_num )
+
+		var materials = _data.materials[material_num].materials
+
+		for (var i = 0; i < materials.length; i++) {
+			$('<span class="button"/>')
+				.text(materials[i])
+				.click(function() {
+					if ($(this).hasClass('active')) {
+						$(this).removeClass('active')
+					} else {
+						$('#materials .button').removeClass('active')
+						$(this).addClass('active')
+					}
+					filter_by_material()
+				})
+				.appendTo('#materials')
+		}
+
+		$('#materials').fadeIn()
+
+	}
+
 	var toggle_filter = function() {
 		var filter_name = $(this).data('filter'),
 				filter_ui = $('#filter-' + filter_name)
@@ -71,7 +167,7 @@
 		if(filter_ui.is(':visible')) {
 			filter_ui.hide()
 		} else {
-			filter_ui.show()
+			filter_ui.fadeIn()
 			$project_card_container.addClass(filter_name)
 			try{
 				eval('show_' + filter_name + '()')

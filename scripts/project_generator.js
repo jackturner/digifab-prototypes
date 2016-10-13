@@ -48,7 +48,7 @@ var materials = [
 	,{"material_category": "Paper", "materials": ["Cardboard","Cardstock","Chipboard","Construction ","Copy","Matboard","Synthetic"]}
 	,{"material_category": "Fabric", "materials": ["Bamboo","Cotton","Hemp","Leather","Linen","Nylon","Polyester","Silk","Spandex","Wool"]}
 	,{"material_category": "Metal", "materials": ["Aluminum","Aluminum Foam","Anodized Aluminum","Brass","Bronze","Cold Rolled Steel","Copper","Copper Foam","Galvanized Steel","Hot Rolled Steel","Nickel","Stainless Steel ","Tin","Titanium"]}
-	,{"material_category": "Foam &amp; Rubber", "materials": ["Expanded Polypropylene ","Expanded Polystyrene","Expanded PVC","Extruded Polystyrene ","Foam Core","Gum Rubber","Neoprene","PET","Polyethylene Foam","Polyurethane","Polyurethane Foam","Silicone","Urethane"]}
+	,{"material_category": "Foam & Rubber", "materials": ["Expanded Polypropylene ","Expanded Polystyrene","Expanded PVC","Extruded Polystyrene ","Foam Core","Gum Rubber","Neoprene","PET","Polyethylene Foam","Polyurethane","Polyurethane Foam","Silicone","Urethane"]}
 	,{"material_category": "Miscellaneous", "materials": ["Bark","Barn Board","Ceramic Tile","Concrete","Cork","Float Glass","Glass Block","Granite","High Pressure Laminate","Linoleum","Machinable Wax","Marble","Mineral Fiber Board","Mirror","Mushroom Wood","PaperStone","Richlite","Slate","Solid Surface","Stained Glass","Tempered Glass"]}
 ]
 

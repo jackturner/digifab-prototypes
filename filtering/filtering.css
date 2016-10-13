@@ -141,7 +141,8 @@ li {
 
 /* FILTERS */
 #filtering {
-    margin:             12px 1.6666666665%;
+    /*margin:             12px 1.6666666665%;*/
+    margin:             12px 0;
     text-align:         center;
     }
 
@@ -156,7 +157,7 @@ li {
 
 .filter {
     display:            none;
-    margin:             18px 4%;
+    margin:             18px 0;
     position:           relative;
     }
 
@@ -188,4 +189,32 @@ li {
 .filter form label input {
     margin-right:       4px;
     cursor:             pointer;
+    }
+
+.filter .button {
+    display:            inline-block;
+    border-radius:      10px;
+    background:         #666;
+    color:              #FFF;
+    margin:             3px;
+    padding:            18px 15px;
+    text-transform:     uppercase;
+    cursor:             pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;           /* Non-prefixed version, currently
+                                    not supported by any browser */
+    }
+
+.filter .button.active {
+    background:         #111;
+    }
+
+#material_categories, #materials {
+    white-space:        nowrap;
+    overflow:           scroll;
+    width:              100%;
     }
