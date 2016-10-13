@@ -50,9 +50,9 @@
 
 			var client = _clients[i]
 
-			var el = $('<div class="client-card card"/>')
+			var el = $('<span class="button"/>')
+								.text(client.name)
 								.data(client)
-								.append('<div class="content"><span class="name">' + client.name	 + '</span></div>')
 								.appendTo($client_card_container)
 
 			el.click(filter_by_client)
@@ -213,9 +213,25 @@
 
 	}
 
+	var show_client = function() {
+		$('#filter-client .button.active').removeClass('active')
+	}
+
 	var filter_by_client = function (client_el) {
 
-		var searching_for_client_id = $(client_el.currentTarget).data('id')
+		var $el = $(client_el.currentTarget)
+
+		if ( $el.hasClass('active') ) {
+			$el.removeClass('active')
+			$project_cards.show()
+			return
+		}
+
+		$('#filter-client .button.active').removeClass('active')
+
+		$el.addClass('active')
+
+		var searching_for_client_id = $el.data('id')
 
 		$project_cards.each(function() {
 			var $this = $(this),
