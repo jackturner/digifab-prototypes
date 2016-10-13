@@ -208,6 +208,8 @@
 	  	filter_by_location()
 	  })
 
+	  filter_by_location()
+
 	}
 
 	var filter_by_client = function (client_el) {

@@ -64,6 +64,10 @@ li {
     vertical-align:     top;
 	}
 
+#project-cards:empty {
+    background-color:   orange;
+    }
+
 .mapboxgl-marker {
     margin:             -10px 0 0 -10px;
     width:              20px;

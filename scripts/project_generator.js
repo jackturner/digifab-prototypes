@@ -134,7 +134,7 @@ var random_project = function (num) {
 for (var i = 0; i < 9; i++)
 	data.clients.push( random_client(i) )
 
-for (var i = 0; i < 200; i++)
+for (var i = 0; i < 400; i++)
 	data.projects.push( random_project(i) )
 
 console.log(data)
