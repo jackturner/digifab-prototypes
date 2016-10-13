@@ -63,6 +63,7 @@
 
 	var show_material = function () {
 		$('#materials').empty()
+		$('#filter-material .button.active').removeClass('active')
 	}
 
 	var build_materials = function (materials_json) {
