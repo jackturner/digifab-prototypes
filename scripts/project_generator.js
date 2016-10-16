@@ -68,7 +68,9 @@ var random_client = function (num) {
 	return {
 		"id": num + 1,
 	  "name": faker.company.companyName(),
-	  "description": faker.lorem.paragraph()
+	  "description": faker.lorem.paragraph(),
+	  "image": "http://placekitten.com/400/200?image=" + (num + 1),
+	  "link": faker.internet.url()
 	}
 }
 

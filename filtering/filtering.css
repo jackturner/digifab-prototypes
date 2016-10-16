@@ -222,3 +222,41 @@ li {
     overflow:           scroll;
     width:              100%;
     }
+
+#client-info {
+    display:            none;
+    position:           relative;
+    border-radius:      10px;
+    background:         #666;
+    color:              #FFF;
+    margin:             3px;
+    padding:            15px;
+    text-align:         left;
+    }
+
+#client-info img {
+    float:              left;
+    margin-right:       -200px;
+    width:              200px;
+    }
+
+#client-info h1 {
+    margin:             0 100px 8px 215px;
+    }
+
+#client-info p {
+    margin:             8px 100px 8px 215px;
+    }
+
+#client-info a {
+    display:            block;
+    margin:             8px 100px 8px 215px;
+    font-style:         italic;
+    }
+
+
+#client-info-back-button {
+    position:           absolute;
+    top:                0;
+    right:              0;
+    }

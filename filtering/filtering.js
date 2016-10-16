@@ -214,7 +214,7 @@
 	}
 
 	var show_client = function() {
-		$('#filter-client .button.active').removeClass('active')
+		return_to_client_list()
 	}
 
 	var filter_by_client = function (client_el) {
@@ -233,6 +233,29 @@
 
 		var searching_for_client_id = $el.data('id')
 
+
+		for (var i = 0; i < _data.clients.length; i++) {
+			if ( _data.clients[i].id == searching_for_client_id) {
+
+				var this_client = _data.clients[i]
+
+				// Hide client cards
+				$('#client-chooser').hide()
+
+				// Populate client info section
+				$('#client-info-name').text(this_client.name)
+				$('#client-info-description').text(this_client.description)
+				$('#client-info-image').attr('src', this_client.image)
+				$('#client-info-site-link').attr('href', this_client.link).text(this_client.name + '’s site')
+
+				// Show client info section
+				$('#client-info').fadeIn()
+					// Make sure it has a back button
+
+				break;
+			}
+		}
+
 		$project_cards.each(function() {
 			var $this = $(this),
 					this_client_id = $this.data('client_id')
@@ -243,7 +266,13 @@
 				$this.hide()
 		})
 
+	}
 
+	var return_to_client_list = function() {
+		$('#client-info').hide()
+		$('#filter-client .button.active').removeClass('active')
+		$('#client-chooser').fadeIn()
+		$project_cards.show()
 	}
 
 	var filter_by_location = function() {
@@ -358,6 +387,7 @@
 	$('.filter-toggle').click(toggle_filter)
 	setup_cost_slider()
 	$('#filter-status-form').on('change', 'select', filter_by_status)
+	$('#client-info-back-button').click(return_to_client_list)
 
 	
 // 	return {
