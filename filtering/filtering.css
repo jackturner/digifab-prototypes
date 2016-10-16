@@ -146,7 +146,7 @@ li {
 /* FILTERS */
 #filtering {
     /*margin:             12px 1.6666666665%;*/
-    margin:             12px 0;
+    margin:             72px 0 12px;
     text-align:         center;
     }
 
@@ -229,7 +229,7 @@ li {
     border-radius:      10px;
     background:         #666;
     color:              #FFF;
-    margin:             3px;
+    margin:             6px 10%;
     padding:            15px;
     text-align:         left;
     }
