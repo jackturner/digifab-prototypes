@@ -254,9 +254,15 @@ li {
     font-style:         italic;
     }
 
-
 #client-info-back-button {
     position:           absolute;
     top:                0;
     right:              0;
     }
+
+@media screen and (max-width: 720px) {
+#client-info img, #client-info h1, #client-info p, #client-info a{
+    float:              none;
+    margin:             6px 0;
+    }
+}
