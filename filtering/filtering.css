@@ -238,20 +238,25 @@ li {
     float:              left;
     margin-right:       -200px;
     width:              200px;
+    border-radius:      5px;
     }
 
 #client-info h1 {
-    margin:             0 100px 8px 215px;
+    margin:             0 72px 3px 215px;
+    font-size:          15px;
+    font-weight:        bold;
     }
 
 #client-info p {
-    margin:             8px 100px 8px 215px;
+    margin:             3px 72px 3px 215px;
+    font-size:          13px;
     }
 
 #client-info a {
     display:            block;
-    margin:             8px 100px 8px 215px;
-    font-style:         italic;
+    margin:             3px 72px 3px 215px;
+    font-weight:        bold;
+    font-size:          12px;
     }
 
 #client-info-back-button {
@@ -262,7 +267,8 @@ li {
 
 @media screen and (max-width: 720px) {
 #client-info img, #client-info h1, #client-info p, #client-info a{
+    width:              100%;
     float:              none;
-    margin:             6px 0;
+    margin:             3px 0;
     }
 }
